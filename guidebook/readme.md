@@ -20,7 +20,9 @@
 本文中のインラインSVG図は、GitHubのMarkdownサニタイズにより除去されるため、GitHub上のプレビューでは表示されません。図を閲覧する場合はローカル環境またはGitHub Pagesをご利用ください。なお、Mermaid図はGitHub上でそのまま表示されます。
 
 ## ライセンス
-本コンテンツは**政府標準利用規約（第2.0版）**に準拠します（クリエイティブ・コモンズ・ライセンス 表示4.0国際（CC BY 4.0）と互換）。
+このキュメントは、以下のライセンスを適用します。
+ [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/) 
+© 2026 Digital Agency,Government of Japan
 
 <div align="right">
 
