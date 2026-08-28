@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="690" viewBox="0 0 520 690">
+  <title>43_9_ベース・レジストリ構成図</title>
+  <rect width="520" height="690" fill="#FFFFFF"/>
+
+  <defs>
+    <style>
+      .font { font-family: "Noto Sans JP", sans-serif; }
+      .blue { fill: #0017B6; }
+      .navy { fill: #183A72; }
+      .stroke-blue { stroke: #0017B6; }
+      .stroke-light { stroke: #9AB6EA; }
+      .text-blue { fill: #0017B6; }
+      .text-dark { fill: #24324A; }
+      .text-gray { fill: #5F6B80; }
+    </style>
+  </defs>
+
+  
+  <rect x="18" y="8" width="484" height="41" rx="3" fill="#F1F5FC" stroke="#9AB6EA" stroke-width="1.4"/>
+  <text x="260" y="34" class="font text-dark" font-size="14" font-weight="700" text-anchor="middle">企業・団体</text>
+
+  
+  <line x1="260" y1="49" x2="260" y2="68" stroke="#3D4E67" stroke-width="1.8"/>
+  <path d="M255 65 L260 73 L265 65 Z" fill="#3D4E67"/>
+
+  
+  <rect x="18" y="75" width="484" height="440" rx="11" fill="#F7F9FD" stroke="#9AB6EA" stroke-width="1.5"/>
+
+  
+  <rect x="29" y="81" width="462" height="96" rx="8" fill="#FFFFFF" stroke="#0017B6" stroke-width="1.6"/>
+
+  <text x="260" y="104" class="font text-blue" font-size="13" font-weight="700" text-anchor="middle">ベース・レジストリ活用サービス（例）</text>
+  <line x1="40" y1="110" x2="480" y2="110" stroke="#0017B6" stroke-width="1.4"/>
+
+  
+  <g fill="#195BCB">
+    <circle cx="143" cy="131" r="6"/>
+    <circle cx="171" cy="129" r="6"/>
+    <path d="M132 155v-10c0-6 5-10 11-10s11 4 11 10v10h-7v-9h-8v9z"/>
+    <path d="M158 155v-12c0-6 5-10 12-10s12 4 12 10v12h-7v-10h-10v10z"/>
+    <rect x="124" y="155" width="65" height="7"/>
+  </g>
+
+  
+  <g fill="#195BCB">
+    <rect x="200" y="119" width="37" height="49"/>
+    <rect x="210" y="115" width="16" height="8" rx="2"/>
+    <path d="M210 144 l7 7 12-13" fill="none" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <text x="292" y="142" class="font text-dark" font-size="13" font-weight="700">行政事務系システム群</text>
+  <text x="292" y="158" class="font text-dark" font-size="11">（商業登記／不動産登記など）</text>
+
+  
+  <rect x="24" y="184" width="472" height="52" rx="4" fill="#195BCB"/>
+  <text x="260" y="207" class="font" fill="#FFFFFF" font-size="16" font-weight="700" text-anchor="middle">ベース・レジストリ</text>
+  <text x="260" y="225" class="font" fill="#FFFFFF" font-size="13" text-anchor="middle">自治体職員向けの制度横断データベース</text>
+
+  
+  <rect x="28" y="244" width="464" height="252" rx="5" fill="#FFFFFF" stroke="#9AB6EA" stroke-width="1.3"/>
+
+  <text x="260" y="294" class="font text-blue" font-size="13" font-weight="700" text-anchor="middle">ベース・レジストリの機能</text>
+
+  
+  <g fill="#195BCB">
+    <path d="M225 338              C237 335 247 336 258 341              V376              C247 371 238 370 225 372 Z"/>
+    <path d="M295 338              C283 335 273 336 262 341              V376              C273 371 282 370 295 372 Z"/>
+    <rect x="218" y="344" width="6" height="36"/>
+    <rect x="296" y="344" width="6" height="36"/>
+    <rect x="218" y="376" width="84" height="5"/>
+  </g>
+
+  <text x="260" y="406" class="font text-gray" font-size="10.5" text-anchor="middle">住所／所在地、法人の名称など、制度横断的に</text>
+  <text x="260" y="421" class="font text-gray" font-size="10.5" text-anchor="middle">複数の行政手続で参照されるデータを提供するデータベース</text>
+
+  <text x="154" y="450" class="font text-gray" font-size="10">・基礎データの整備・更新と最新性の担保</text>
+  <text x="154" y="465" class="font text-gray" font-size="10">・APIによる制度横断でのデータ提供</text>
+  <text x="154" y="480" class="font text-gray" font-size="10">・名寄せ・同定の基準となる識別子の付与</text>
+
+  
+  <rect x="18" y="525" width="484" height="147" rx="11" fill="#F7F9FD" stroke="#9AB6EA" stroke-width="1.5"/>
+
+  <text x="260" y="545" class="font text-blue" font-size="12.5" font-weight="700" text-anchor="middle">ベース・レジストリのデータ提供</text>
+
+  
+  <rect x="32" y="557" width="145" height="103" rx="9" fill="#FFFFFF" stroke="#9AB6EA" stroke-width="1.3"/>
+
+  <g fill="#183A72">
+    <rect x="88" y="573" width="36" height="46"/>
+    <rect x="82" y="613" width="49" height="6"/>
+    <rect x="95" y="580" width="6" height="6" fill="#FFFFFF"/>
+    <rect x="108" y="580" width="6" height="6" fill="#FFFFFF"/>
+    <rect x="95" y="590" width="6" height="6" fill="#FFFFFF"/>
+    <rect x="108" y="590" width="6" height="6" fill="#FFFFFF"/>
+    <rect x="95" y="600" width="6" height="6" fill="#FFFFFF"/>
+    <rect x="108" y="600" width="6" height="6" fill="#FFFFFF"/>
+  </g>
+
+  <text x="104.5" y="635" class="font text-blue" font-size="10.5" font-weight="700" text-anchor="middle">法人ベース・レジストリ</text>
+  <text x="104.5" y="649" class="font text-gray" font-size="8.3" text-anchor="middle">商業登記情報（法人名・所在地など）</text>
+
+  
+  <rect x="187" y="557" width="145" height="103" rx="9" fill="#FFFFFF" stroke="#9AB6EA" stroke-width="1.3"/>
+
+  <g fill="#183A72">
+    <rect x="232" y="592" width="8" height="27"/>
+    <rect x="242" y="582" width="11" height="37"/>
+    <rect x="255" y="576" width="11" height="43"/>
+    <rect x="268" y="588" width="11" height="31"/>
+    <rect x="281" y="597" width="8" height="22"/>
+    <rect x="246" y="588" width="3" height="4" fill="#FFFFFF"/>
+    <rect x="259" y="582" width="3" height="4" fill="#FFFFFF"/>
+    <rect x="259" y="591" width="3" height="4" fill="#FFFFFF"/>
+    <rect x="272" y="594" width="3" height="4" fill="#FFFFFF"/>
+    <rect x="235" y="598" width="3" height="4" fill="#FFFFFF"/>
+  </g>
+
+  <text x="259.5" y="635" class="font text-blue" font-size="10.5" font-weight="700" text-anchor="middle">不動産ベース・レジストリ</text>
+  <text x="259.5" y="649" class="font text-gray" font-size="8.3" text-anchor="middle">不動産登記情報など</text>
+
+  
+  <rect x="342" y="557" width="146" height="103" rx="9" fill="#FFFFFF" stroke="#9AB6EA" stroke-width="1.3"/>
+
+  
+  <g fill="none" stroke="#183A72" stroke-width="2.5">
+    <circle cx="415" cy="596" r="21"/>
+    <ellipse cx="415" cy="596" rx="10" ry="21"/>
+    <line x1="394" y1="596" x2="436" y2="596"/>
+    <path d="M398 585 Q415 592 432 585"/>
+    <path d="M398 607 Q415 600 432 607"/>
+  </g>
+
+  <text x="415" y="635" class="font text-blue" font-size="10.5" font-weight="700" text-anchor="middle">アドレス・ベース・レジストリ</text>
+  <text x="415" y="649" class="font text-gray" font-size="8.3" text-anchor="middle">住所情報・所在地など</text>
+</svg>

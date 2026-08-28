@@ -1,0 +1,195 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="650" viewBox="0 0 1400 650" role="img" aria-labelledby="diagramTitle diagramDesc">
+  <title id="diagramTitle">10_7-3-2_単一基盤系と複数基盤系の発展経路</title>
+  <desc id="diagramDesc">
+    理想経路では型2.1・型2.3の個別利用から、型2.2の自治体主導・広域を経て、
+    型2.4の官民混在・広域へ進む。現実経路では型2.5・型2.7の拠点統合から、
+    型2.6・型2.8の広域統合へ進み、将来的な基盤統合によって型2.4へ収斂する。
+  </desc>
+
+  <defs>
+    <style>
+      .diagram-text {
+        font-family: "Noto Sans JP", sans-serif;
+        fill: #0017B6;
+      }
+
+      .white-text {
+        font-family: "Noto Sans JP", sans-serif;
+        fill: #FFFFFF;
+      }
+
+      .section-title {
+        font-size: 22px;
+        font-weight: 700;
+        letter-spacing: 0.03em;
+      }
+
+      .node-title {
+        font-size: 22px;
+        font-weight: 700;
+      }
+
+      .node-subtitle {
+        font-size: 18px;
+        font-weight: 600;
+      }
+
+      .goal-label {
+        font-size: 15px;
+        font-weight: 700;
+        letter-spacing: 0.06em;
+      }
+
+      .arrow-label {
+        font-size: 16px;
+        font-weight: 600;
+      }
+
+      .section-box {
+        stroke: #C0D7FB;
+        stroke-width: 2;
+      }
+
+      .node-box {
+        stroke: #0017B6;
+        stroke-width: 2.5;
+      }
+
+      .main-arrow {
+        fill: none;
+        stroke: #0017B6;
+        stroke-width: 4;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .future-arrow {
+        fill: none;
+        stroke: #0017B6;
+        stroke-width: 3;
+        stroke-dasharray: 10 9;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+
+    <linearGradient id="idealSectionGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F3EEE5"/>
+    </linearGradient>
+
+    <linearGradient id="realSectionGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#C0D7FB"/>
+    </linearGradient>
+
+    <linearGradient id="goalNodeGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0017B6"/>
+      <stop offset="1" stop-color="#263DCC"/>
+    </linearGradient>
+
+    <filter id="nodeShadow" x="-20%" y="-25%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#0017B6" flood-opacity="0.14"/>
+    </filter>
+
+    <marker id="mainArrowHead" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M 0 0 L 12 6 L 0 12 Z" fill="#0017B6"/>
+    </marker>
+
+    <marker id="futureArrowHead" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M 0 0 L 12 6 L 0 12 Z" fill="#0017B6"/>
+    </marker>
+  </defs>
+
+  <rect id="background" x="0" y="0" width="1400" height="650" fill="#FFFFFF"/>
+
+  <g id="idealPathGroup">
+    <rect id="idealPathContainer" class="section-box" x="55" y="45" width="1290" height="250" rx="24" fill="url(#idealSectionGradient)"/>
+
+    <rect id="idealPathTitlePlate" x="80" y="25" width="490" height="48" rx="24" fill="#0017B6"/>
+
+    <text id="idealPathTitle" class="white-text section-title" x="140" y="57">
+      理想経路（単一基盤系：型2.1〜2.4）
+    </text>
+
+    <g id="nodeAOne" filter="url(#nodeShadow)">
+      <rect id="nodeAOneBox" class="node-box" x="105" y="115" width="300" height="120" rx="10" fill="#FFFFFF"/>
+      <rect id="nodeAOneAccent" x="103" y="115" width="12" height="120" rx="6" fill="#C0D7FB"/>
+      <text id="nodeAOneText" class="diagram-text" x="255" y="160" text-anchor="middle">
+        <tspan class="node-title" x="255">型2.1 ／ 型2.3</tspan>
+        <tspan class="node-subtitle" x="255" dy="35">個別利用</tspan>
+      </text>
+    </g>
+
+    <path id="arrowAOneToATwo" class="main-arrow" d="M 420 175 L 500 175" marker-end="url(#mainArrowHead)"/>
+
+    <g id="nodeATwo" filter="url(#nodeShadow)">
+      <rect id="nodeATwoBox" class="node-box" x="520" y="115" width="300" height="120" rx="10" fill="#F3EEE5"/>
+      <rect id="nodeATwoAccent" x="521" y="115" width="12" height="120" rx="6" fill="#0017B6"/>
+      <text id="nodeATwoText" class="diagram-text" x="670" y="160" text-anchor="middle">
+        <tspan class="node-title" x="670">型2.2</tspan>
+        <tspan class="node-subtitle" x="670" dy="35">自治体主導・広域</tspan>
+      </text>
+    </g>
+
+    <path id="arrowATwoToAThree" class="main-arrow" d="M 835 175 L 915 175" marker-end="url(#mainArrowHead)"/>
+
+    <g id="nodeAThree" filter="url(#nodeShadow)">
+      <rect id="nodeAThreeBox" x="935" y="100" width="340" height="150" rx="10" fill="url(#goalNodeGradient)" stroke="#0017B6" stroke-width="3"/>
+
+      <rect id="goalLabelPlate" x="1022" y="115" width="166" height="30" rx="15" fill="#F3EEE5"/>
+
+      <text id="goalLabel" class="diagram-text goal-label" x="1105" y="136" text-anchor="middle">
+        最終目標
+      </text>
+
+      <text id="nodeAThreeText" class="white-text" x="1105" y="182" text-anchor="middle">
+        <tspan class="node-title" x="1105">型2.4</tspan>
+        <tspan class="node-subtitle" x="1105" dy="36">官民混在・広域</tspan>
+      </text>
+    </g>
+  </g>
+
+  <g id="realPathGroup">
+    <rect id="realPathContainer" class="section-box" x="55" y="355" width="905" height="245" rx="24" fill="url(#realSectionGradient)"/>
+
+    <rect id="realPathTitlePlate" x="80" y="335" width="505" height="48" rx="24" fill="#0017B6"/>
+
+    <text id="realPathTitle" class="white-text section-title" x="150" y="367">
+      現実経路（複数基盤系：型2.5〜2.8）
+    </text>
+
+    <g id="nodeBOne" filter="url(#nodeShadow)">
+      <rect id="nodeBOneBox" class="node-box" x="105" y="425" width="340" height="125" rx="10" fill="#FFFFFF"/>
+      <rect id="nodeBOneAccent" x="103" y="425" width="12" height="125" rx="6" fill="#C0D7FB"/>
+      <text id="nodeBOneText" class="diagram-text" x="275" y="465" text-anchor="middle">
+        <tspan class="node-title" x="275">型2.5 ／ 型2.7</tspan>
+        <tspan class="node-subtitle" x="275" dy="32">拠点統合</tspan>
+        <tspan class="node-subtitle" x="275" dy="27">（認証整合なし）</tspan>
+      </text>
+    </g>
+
+    <path id="arrowBOneToBTwo" class="main-arrow" d="M 460 487 L 535 487" marker-end="url(#mainArrowHead)"/>
+
+    <g id="nodeBTwo" filter="url(#nodeShadow)">
+      <rect id="nodeBTwoBox" class="node-box" x="555" y="425" width="350" height="125" rx="10" fill="#C0D7FB"/>
+      <rect id="nodeBTwoAccent" x="555" y="425" width="12" height="125" rx="6" fill="#0017B6"/>
+      <text id="nodeBTwoText" class="diagram-text" x="730" y="465" text-anchor="middle">
+        <tspan class="node-title" x="730">型2.6 ／ 型2.8</tspan>
+        <tspan class="node-subtitle" x="730" dy="32">広域統合</tspan>
+        <tspan class="node-subtitle" x="730" dy="27">（認証整合あり）</tspan>
+      </text>
+    </g>
+  </g>
+
+  <g id="futureConvergenceGroup">
+    <path id="futureConvergenceArrow" class="future-arrow" d="M 905 487          L 1070 487, 1155 487          L 1155 260," marker-end="url(#futureArrowHead)"/>
+
+    <rect id="futureConvergenceLabelBox" x="985" y="355" width="350" height="78" rx="16" fill="#FFFFFF" stroke="#0017B6" stroke-width="2" stroke-dasharray="7 6"/>
+
+    <text id="futureConvergenceLabel" class="diagram-text arrow-label" x="1240" y="386" text-anchor="middle">
+      <tspan x="1160">将来的な基盤統合</tspan>
+      <tspan x="1160" dy="27">（単一基盤への収斂）</tspan>
+    </text>
+  </g>
+</svg>

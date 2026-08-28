@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="diagramTitle diagramDesc">
+  <title id="diagramTitle">17_9-6_福島県</title>
+  <desc id="diagramDesc">
+    福島県と市町村がエリアデータ連携基盤の構築・運用保守費用を分担し、
+    基盤から行政手続き、防災、健康サービスなどを一括パッケージ展開する構成図。
+  </desc>
+
+  <defs>
+    <style>
+      .diagram-text {
+        font-family: "Noto Sans JP", sans-serif;
+        fill: #0017B6;
+      }
+
+      .node-title {
+        font-family: "Noto Sans JP", sans-serif;
+        font-size: 28px;
+        font-weight: 700;
+        fill: #0017B6;
+        text-anchor: middle;
+      }
+
+      .platform-title {
+        font-family: "Noto Sans JP", sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+        fill: #FFFFFF;
+        text-anchor: middle;
+      }
+
+      .service-subtitle {
+        font-family: "Noto Sans JP", sans-serif;
+        font-size: 21px;
+        font-weight: 500;
+        fill: #0017B6;
+        text-anchor: middle;
+      }
+
+      .label-text {
+        font-family: "Noto Sans JP", sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        fill: #0017B6;
+        text-anchor: middle;
+      }
+
+      .section-label {
+        font-family: "Noto Sans JP", sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        fill: #0017B6;
+        text-anchor: middle;
+      }
+
+      .flow-line {
+        fill: none;
+        stroke: #0017B6;
+        stroke-width: 2;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+
+    <filter id="nodeShadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#0017B6" flood-opacity="0.14"/>
+    </filter>
+
+    <marker id="arrowPrimary" markerWidth="14" markerHeight="14" refX="11" refY="7" orient="auto" markerUnits="strokeWidth">
+      <path d="M 0 0 L 14 7 L 0 14 Z" fill="#0017B6"/>
+    </marker>
+  </defs>
+
+  <rect id="background" x="0" y="0" width="1200" height="620" fill="#FFFFFF" transform="matrix(1, 0, 0, 1, -2.48, 0)"/>
+
+  
+  <text id="fundingSectionLabel" class="section-label" x="185" y="55">
+    費用負担主体
+  </text>
+
+  <text id="platformSectionLabel" class="section-label" x="590" y="55">
+    共通基盤
+  </text>
+
+  <text id="serviceSectionLabel" class="section-label" x="1010" y="55">
+    サービス展開
+  </text>
+
+  
+  <g id="prefectureNode" filter="url(#nodeShadow)">
+    <rect id="prefectureNodeBody" x="65" y="110" width="240" height="130" rx="24" fill="#C0D7FB" stroke="#0017B6" stroke-width="2"/>
+    <text id="prefectureNodeText" class="node-title" x="185" y="188">
+      福島県
+    </text>
+  </g>
+
+  
+  <g id="municipalityNode" filter="url(#nodeShadow)">
+    <rect id="municipalityNodeBody" x="65" y="350" width="240" height="130" rx="24" fill="#F3EEE5" stroke="#0017B6" stroke-width="2"/>
+    <text id="municipalityNodeText" class="node-title" x="185" y="428">
+      市町村
+    </text>
+  </g>
+
+  
+  <g id="sharedPlatformNode" filter="url(#nodeShadow)">
+    <rect id="sharedPlatformOuter" x="460" y="205" width="250" height="180" rx="30" fill="#0017B6"/>
+
+    <text id="sharedPlatformText" class="platform-title" x="590" y="290">
+      <tspan x="590" dy="0">エリアデータ</tspan>
+      <tspan x="590" dy="42">連携基盤</tspan>
+    </text>
+  </g>
+
+  
+  <g id="servicesNode" filter="url(#nodeShadow)">
+    <rect id="servicesNodeBody" x="855" y="175" width="295" height="240" rx="28" fill="#F3EEE5" stroke="#0017B6" stroke-width="2"/>
+
+    <rect id="serviceItemProcedure" x="885" y="210" width="235" height="48" rx="14" fill="#C0D7FB"/>
+    <text id="serviceProcedureText" class="service-subtitle" x="1002" y="242">
+      行政手続き
+    </text>
+
+    <rect id="serviceItemDisaster" x="885" y="271" width="235" height="48" rx="14" fill="#FFFFFF" stroke="#C0D7FB" stroke-width="3"/>
+    <text id="serviceDisasterText" class="service-subtitle" x="1002" y="303">
+      防災
+    </text>
+
+    <rect id="serviceItemHealth" x="865" y="332" width="275" height="48" rx="14" fill="#C0D7FB"/>
+    <text id="serviceHealthText" class="service-subtitle" x="1002" y="364">
+      健康・ポイントサービス 等
+    </text>
+  </g>
+
+  
+  <path id="prefectureFlow" class="flow-line" d="M 305 175 L 395 175 L395 270 L450 270" marker-end="url(#arrowPrimary)"/>
+
+  <g id="prefectureFlowLabel">
+    <rect id="prefectureFlowLabelBody" x="300" y="85" width="285" height="68" rx="16" fill="#FFFFFF" stroke="#C0D7FB" stroke-width="3"/>
+    <text id="prefectureFlowLabelText" class="label-text" x="442" y="113">
+      <tspan x="442" dy="0">初期構築費：全額</tspan>
+      <tspan x="442" dy="25">運用保守費：1/2を負担</tspan>
+    </text>
+  </g>
+
+  
+  <path id="municipalityFlow" class="flow-line" d="M 305 415 L 395 415 L395 310 L450 310" marker-end="url(#arrowPrimary)"/>
+
+  <g id="municipalityFlowLabel">
+    <rect id="municipalityFlowLabelBody" x="300" y="455" width="270" height="68" rx="16" fill="#FFFFFF" stroke="#C0D7FB" stroke-width="3"/>
+    <text id="municipalityFlowLabelText" class="label-text" x="435" y="483">
+      <tspan x="435" dy="10">運用保守費：1/2を負担</tspan>
+    </text>
+  </g>
+
+  
+  <path id="serviceDeploymentFlow" class="flow-line" d="M 710 295 H 845" marker-end="url(#arrowPrimary)"/>
+
+  <g id="deploymentFlowLabel">
+    <rect id="deploymentFlowLabelBody" x="727" y="225" width="175" height="48" rx="14" fill="#C0D7FB" stroke="#0017B6" stroke-width="2"/>
+    <text id="deploymentFlowLabelText" class="label-text" x="814" y="256">
+      一括パッケージ展開
+    </text>
+  </g>
+
+  
+  <g id="footerNote">
+    <rect id="footerNoteBody" x="305" y="550" width="590" height="42" rx="21" fill="#F3EEE5"/>
+    <text id="footerNoteText" class="diagram-text" x="600" y="578" font-size="17" font-weight="500" text-anchor="middle">
+      県と市町村が共同で基盤を支え、複数の地域サービスへ横断的に展開
+    </text>
+  </g>
+</svg>

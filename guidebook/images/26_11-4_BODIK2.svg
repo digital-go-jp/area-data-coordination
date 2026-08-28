@@ -1,0 +1,299 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="980" viewBox="0 0 1400 980" role="img" aria-labelledby="diagramTitle diagramDesc">
+  <title id="diagramTitle">26_11-4_BODIK2</title>
+  <desc id="diagramDesc">
+    自習室と駐車場で映像をエッジ処理し、映像自体は即座に削除します。
+    人数及び駐車台数の数値データだけをクラウドへ送信し、
+    リアルタイム混雑・満空マップで可視化する構成です。
+  </desc>
+
+  <defs>
+    <marker id="arrowPrimary" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M 0 0 L 12 6 L 0 12 Z" fill="#0017B6"/>
+    </marker>
+
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#0017B6" flood-opacity="0.13"/>
+    </filter>
+
+    <style>
+      .background {
+        fill: #FFFFFF;
+      }
+
+      .section {
+        stroke: #0017B6;
+        stroke-width: 2;
+      }
+
+      .section-edge,
+      .section-application {
+        fill: #F3EEE5;
+      }
+
+      .section-platform {
+        fill: #C0D7FB;
+      }
+
+      .section-label {
+        font-family: "Noto Sans JP", sans-serif;
+        font-size: 22px;
+        font-weight: 700;
+        fill: #FFFFFF;
+        text-anchor: middle;
+        dominant-baseline: middle;
+      }
+
+      .section-label-bg {
+        fill: #0017B6;
+      }
+
+      .node {
+        fill: #FFFFFF;
+        stroke: #0017B6;
+        stroke-width: 2;
+      }
+
+      .node-soft {
+        fill: #C0D7FB;
+        stroke: #0017B6;
+        stroke-width: 2;
+      }
+
+      .node-title {
+        font-family: "Noto Sans JP", sans-serif;
+        font-size: 19px;
+        font-weight: 700;
+        fill: #0017B6;
+        text-anchor: middle;
+      }
+
+      .node-subtitle {
+        font-family: "Noto Sans JP", sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        fill: #0017B6;
+        text-anchor: middle;
+      }
+
+      .flow-strong {
+        fill: none;
+        stroke: #0017B6;
+        stroke-width: 2.5;
+        stroke-linejoin: round;
+        marker-end: url(#arrowPrimary);
+      }
+
+      .flow-label-bg {
+        fill: #FFFFFF;
+        stroke: #0017B6;
+        stroke-width: 1.5;
+      }
+
+      .flow-label {
+        font-family: "Noto Sans JP", sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        fill: #0017B6;
+        text-anchor: middle;
+        dominant-baseline: middle;
+      }
+
+      .delete-label {
+        font-family: "Noto Sans JP", sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+        fill: #0017B6;
+        text-anchor: middle;
+      }
+    </style>
+  </defs>
+
+  <rect id="background" class="background" x="0" y="0" width="1400" height="980"/>
+
+  <g id="diagramContent" transform="translate(0,0)">
+
+    
+    <g id="studyRoomSection">
+      <rect id="studyRoomSectionBox" class="section section-edge" x="55" y="40" width="625" height="460" rx="24" filter="url(#softShadow)"/>
+      <rect id="studyRoomHeader" class="section-label-bg" x="55" y="40" width="625" height="54" rx="22"/>
+      <rect id="studyRoomHeaderMask" class="section-label-bg" x="55" y="70" width="625" height="24"/>
+      <text id="studyRoomLabel" class="section-label" x="367.5" y="68">自習室</text>
+
+      
+      <rect id="studyCameraNode" class="node" x="90" y="145" width="150" height="82" rx="16"/>
+      <text id="studyCameraText" class="node-title" x="165" y="191">AIカメラ</text>
+
+      <rect id="raspberryNode" class="node-soft" x="285" y="132" width="190" height="108" rx="16"/>
+      <text id="raspberryText" class="node-title" x="380" y="179">
+        <tspan x="380" dy="0">Raspberry Pi 5</tspan>
+        <tspan class="node-subtitle" x="380" dy="28">映像を現地処理</tspan>
+      </text>
+
+      <rect id="peopleDataNode" class="node" x="515" y="132" width="130" height="108" rx="16"/>
+      <text id="peopleDataText" class="node-title" x="580" y="169">
+        <tspan x="580" dy="0">人数データ</tspan>
+        <tspan class="node-subtitle" x="580" dy="26">1分ごと</tspan>
+        <tspan class="node-subtitle" x="580" dy="22">数値のみ</tspan>
+      </text>
+
+      
+      <path id="studyVideoFlow" class="flow-strong" d="M 240 186 L 285 186"/>
+      <rect id="studyVideoFlowLabelBox" class="flow-label-bg" x="215" y="255" width="95" height="30" rx="15"/>
+      <text id="studyVideoFlowLabel" class="flow-label" x="262.5" y="271">映像データ</text>
+
+      
+      <path id="studyCountFlow" class="flow-strong" d="M 475 186 L 515 186"/>
+      <rect id="studyCountFlowLabelBox" class="flow-label-bg" x="435" y="255" width="134" height="42" rx="12"/>
+      <text id="studyCountFlowLabel" class="flow-label" x="502" y="270">
+        <tspan x="502" dy="0">1分ごとに</tspan>
+        <tspan x="502" dy="16">人数カウント</tspan>
+      </text>
+
+      
+      <path id="studyDeleteFlow" class="flow-strong" d="M 380 240 L 380 325"/>
+      
+      
+      <g id="studyDeleteGroup" transform="translate(340, 335)">
+        <rect x="0" y="0" width="80" height="56" rx="6" fill="#FFFFFF" stroke="#0017B6" stroke-width="2"/>
+        
+        <circle cx="12" cy="8" r="2.5" fill="#0017B6"/>
+        <circle cx="26" cy="8" r="2.5" fill="#0017B6"/>
+        <circle cx="40" cy="8" r="2.5" fill="#0017B6"/>
+        <circle cx="54" cy="8" r="2.5" fill="#0017B6"/>
+        <circle cx="68" cy="8" r="2.5" fill="#0017B6"/>
+        
+        <circle cx="12" cy="48" r="2.5" fill="#0017B6"/>
+        <circle cx="26" cy="48" r="2.5" fill="#0017B6"/>
+        <circle cx="40" cy="48" r="2.5" fill="#0017B6"/>
+        <circle cx="54" cy="48" r="2.5" fill="#0017B6"/>
+        <circle cx="68" cy="48" r="2.5" fill="#0017B6"/>
+        
+        <polygon points="32,20 32,36 48,28" fill="#0017B6"/>
+        <text class="node-title" x="40" y="80">映像データ</text>
+        
+        <line x1="-5" y1="-5" x2="85" y2="61" stroke="#0017B6" stroke-width="6" stroke-linecap="round"/>
+        <line x1="85" y1="-5" x2="-5" y2="61" stroke="#0017B6" stroke-width="6" stroke-linecap="round"/>
+      </g>
+
+      <text class="delete-label" x="380" y="445">
+        <tspan x="380" dy="0">Privacy by Design:</tspan>
+        <tspan x="380" dy="22">即座に完全削除</tspan>
+      </text>
+    </g>
+
+
+    
+    <g id="parkingSection">
+      <rect id="parkingSectionBox" class="section section-edge" x="720" y="40" width="625" height="460" rx="24" filter="url(#softShadow)"/>
+      <rect id="parkingHeader" class="section-label-bg" x="720" y="40" width="625" height="54" rx="22"/>
+      <rect id="parkingHeaderMask" class="section-label-bg" x="720" y="70" width="625" height="24"/>
+      <text id="parkingLabel" class="section-label" x="1032.5" y="68">駐車場</text>
+
+      
+      <rect id="parkingCameraNode" class="node" x="755" y="145" width="150" height="82" rx="16"/>
+      <text id="parkingCameraText" class="node-title" x="830" y="191">カメラ</text>
+
+      <rect id="jetsonNode" class="node-soft" x="950" y="132" width="190" height="108" rx="16"/>
+      <text id="jetsonText" class="node-title" x="1045" y="167">
+        <tspan x="1045" dy="0">Jetson Orin</tspan>
+        <tspan x="1045" dy="25">Nano</tspan>
+        <tspan class="node-subtitle" x="1045" dy="25">映像を現地処理</tspan>
+      </text>
+
+      <rect id="parkingDataNode" class="node" x="1180" y="123" width="130" height="126" rx="16"/>
+      <text id="parkingDataText" class="node-title" x="1245" y="154">
+        <tspan x="1245" dy="0">駐車台数</tspan>
+        <tspan x="1245" dy="24">推定データ</tspan>
+        <tspan class="node-subtitle" x="1245" dy="25">IN／OUT</tspan>
+        <tspan class="node-subtitle" x="1245" dy="21">数値のみ</tspan>
+      </text>
+
+      
+      <path id="parkingVideoFlow" class="flow-strong" d="M 905 186 L 950 186"/>
+      <rect id="parkingVideoFlowLabelBox" class="flow-label-bg" x="880" y="255" width="95" height="30" rx="15"/>
+      <text id="parkingVideoFlowLabel" class="flow-label" x="927.5" y="271">映像データ</text>
+
+      
+      <path id="parkingTrackFlow" class="flow-strong" d="M 1140 186 L 1180 186"/>
+      <rect id="parkingTrackFlowLabelBox" class="flow-label-bg" x="1070" y="255" width="150" height="42" rx="12"/>
+      <text id="parkingTrackFlowLabel" class="flow-label" x="1145" y="270">
+        <tspan x="1145" dy="0">車両のIN／OUTを</tspan>
+        <tspan x="1145" dy="16">トラッキング</tspan>
+      </text>
+
+      
+      <path id="parkingDeleteFlow" class="flow-strong" d="M 1045 240 L 1045 325"/>
+      
+      
+      <g id="parkingDeleteGroup" transform="translate(1005, 335)">
+        <rect x="0" y="0" width="80" height="56" rx="6" fill="#FFFFFF" stroke="#0017B6" stroke-width="2"/>
+        
+        <circle cx="12" cy="8" r="2.5" fill="#0017B6"/>
+        <circle cx="26" cy="8" r="2.5" fill="#0017B6"/>
+        <circle cx="40" cy="8" r="2.5" fill="#0017B6"/>
+        <circle cx="54" cy="8" r="2.5" fill="#0017B6"/>
+        <circle cx="68" cy="8" r="2.5" fill="#0017B6"/>
+        
+        <circle cx="12" cy="48" r="2.5" fill="#0017B6"/>
+        <circle cx="26" cy="48" r="2.5" fill="#0017B6"/>
+        <circle cx="40" cy="48" r="2.5" fill="#0017B6"/>
+        <circle cx="54" cy="48" r="2.5" fill="#0017B6"/>
+        <circle cx="68" cy="48" r="2.5" fill="#0017B6"/>
+        
+        <polygon points="32,20 32,36 48,28" fill="#0017B6"/>
+        <text class="node-title" x="40" y="80">映像データ</text>
+        
+        <line x1="-5" y1="-5" x2="85" y2="61" stroke="#0017B6" stroke-width="6" stroke-linecap="round"/>
+        <line x1="85" y1="-5" x2="-5" y2="61" stroke="#0017B6" stroke-width="6" stroke-linecap="round"/>
+      </g>
+
+      <text class="delete-label" x="1045" y="445">
+        <tspan x="1045" dy="0">Privacy by Design:</tspan>
+        <tspan x="1045" dy="22">即座に完全削除</tspan>
+      </text>
+    </g>
+
+
+    
+    <path id="peopleToCloudFlow" class="flow-strong" d="M 580 240 L 580 620"/>
+    <rect id="peopleToCloudLabelBox" class="flow-label-bg" x="450" y="545" width="260" height="34" rx="17"/>
+    <text id="peopleToCloudLabel" class="flow-label" x="580" y="563">安全な人数の数値データのみ送信</text>
+
+    <path id="parkingToCloudFlow" class="flow-strong" d="M 1245 249 L 1245 585 L 820 585 L 820 620"/>
+    <rect id="parkingToCloudLabelBox" class="flow-label-bg" x="888" y="565" width="290" height="34" rx="17"/>
+    <text id="parkingToCloudLabel" class="flow-label" x="1033" y="583">安全な駐車台数の数値データのみ送信</text>
+
+
+    
+    <g id="platformSection">
+      <rect id="platformSectionBox" class="section section-platform" x="330" y="620" width="740" height="175" rx="24" filter="url(#softShadow)"/>
+      <rect id="platformHeader" class="section-label-bg" x="330" y="620" width="740" height="48" rx="22"/>
+      <rect id="platformHeaderMask" class="section-label-bg" x="330" y="645" width="740" height="23"/>
+      <text id="platformLabel" class="section-label" x="700" y="645">クラウド・データ基盤（サーバー）</text>
+
+      <rect id="cityOsNode" class="node" x="475" y="692" width="450" height="76" rx="18"/>
+      <text id="cityOsText" class="node-title" x="700" y="723">
+        <tspan x="700" dy="0">BODIK CityOS</tspan>
+        <tspan class="node-subtitle" x="700" dy="27">FIWARE基盤で数値データを統合・管理</tspan>
+      </text>
+    </g>
+
+
+    
+    <path id="apiFlow" class="flow-strong" d="M 700 795 L 700 847"/>
+    <rect id="apiFlowLabelBox" class="flow-label-bg" x="735" y="805" width="190" height="34" rx="17"/>
+    <text id="apiFlowLabel" class="flow-label" x="830" y="823">API経由でデータ提供</text>
+
+
+    
+    <g id="applicationSection">
+      <rect id="applicationSectionBox" class="section section-application" x="330" y="847" width="740" height="105" rx="24" filter="url(#softShadow)"/>
+      <rect id="applicationHeader" class="section-label-bg" x="330" y="847" width="220" height="42" rx="20"/>
+      <text id="applicationLabel" class="section-label" x="440" y="869">可視化・利活用</text>
+
+      <rect id="mapNode" class="node" x="555" y="866" width="440" height="65" rx="18"/>
+      <text id="mapText" class="node-title" x="775" y="905">リアルタイム混雑・満空マップ</text>
+    </g>
+
+  </g>
+</svg>

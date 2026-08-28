@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <title id="svgTitle">05_3-2-5_エリアデータ連携基盤の全体像</title>
+  <defs>
+    <style>
+      .title{font:700 18px 'Noto-Sans',sans-serif;fill:#111}
+      .head{font:700 28px 'Noto-Sans',sans-serif;fill:#111}
+      .txt{font:500 18px 'Noto-Sans',sans-serif;fill:#222}
+      .small{font:500 12px 'Noto-Sans',sans-serif;fill:#444}
+      .panel{fill:#fff;stroke:#888;stroke-width:1.5}
+      .dashed{fill:#fff;stroke:#999;stroke-width:1.5;stroke-dasharray:4 4}
+      .blue{fill:#0017B6}
+      .blueText{fill:#fff;font:700 20px 'Noto-Sans',sans-serif}
+    </style>
+
+    <marker id="arrowEnd" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#0017B6"/>
+    </marker>
+    <marker id="arrowStart" markerWidth="10" markerHeight="10" refX="0" refY="3" orient="auto">
+      <path d="M8,0 L0,3 L8,6 Z" fill="#0017B6"/>
+    </marker>
+  </defs>
+
+  <rect width="100%" height="100%" fill="white"/>
+
+  
+  <rect x="70" y="40" width="160" height="820" rx="18" class="dashed"/>
+  <text x="150" y="100" text-anchor="middle" class="head">各サービス</text>
+  <text x="150" y="135" text-anchor="middle" class="title">（随時拡張）</text>
+
+  <g transform="translate(90 170)">
+    <g>
+      <rect width="120" height="55" rx="10" class="panel"/>
+      <text x="60" y="35" text-anchor="middle" class="title">行政手続</text>
+    </g>
+    <g transform="translate(0 80)">
+      <rect width="120" height="55" rx="10" class="panel"/>
+      <text x="60" y="35" text-anchor="middle" class="title">交通</text>
+    </g>
+    <g transform="translate(0 160)">
+      <rect width="120" height="55" rx="10" class="panel"/>
+      <text x="60" y="35" text-anchor="middle" class="title">観光</text>
+    </g>
+    <g transform="translate(0 240)">
+      <rect width="120" height="56" rx="10" class="panel"/>
+      <text x="60" y="25" text-anchor="middle" class="txt">地域通貨</text>
+      <text x="60" y="44" text-anchor="middle" class="txt">ポイント</text>
+    </g>
+    <g transform="translate(0 320)">
+      <rect width="120" height="55" rx="10" class="panel"/>
+      <text x="60" y="35" text-anchor="middle" class="title">健康</text>
+    </g>
+    <g transform="translate(0 400)">
+      <rect width="120" height="55" rx="10" class="panel"/>
+      <text x="60" y="35" text-anchor="middle" class="title">教育</text>
+    </g>
+    <g transform="translate(0 480)">
+      <rect width="120" height="55" rx="10" class="panel"/>
+      <text x="60" y="35" text-anchor="middle" class="title">環境</text>
+    </g>
+    <g transform="translate(0 560)">
+      <rect width="120" height="55" rx="10" class="panel"/>
+      <text x="60" y="35" text-anchor="middle" class="title">防災</text>
+    </g>
+    <text x="60" y="650" text-anchor="middle" class="title">……など</text>
+  </g>
+
+  
+  <rect x="380" y="40" width="700" height="720" rx="20" class="panel"/>
+  <text x="730" y="95" text-anchor="middle" class="head">エリアデータ連携基盤</text>
+
+  
+  <rect x="400" y="130" width="660" height="200" rx="16" class="panel"/>
+  <text x="730" y="170" text-anchor="middle" class="title">サービスマネジメント</text>
+
+  <rect x="415" y="195" width="200" height="42" rx="10" class="blue"/>
+  <text x="515" y="222" text-anchor="middle" class="blueText">APIゲートウェイ</text>
+
+  <rect x="630" y="195" width="200" height="42" rx="10" class="panel"/>
+  <text x="725" y="222" text-anchor="middle" class="txt">ユーザー管理</text>
+
+  <rect x="845" y="195" width="200" height="42" rx="10" class="panel"/>
+  <text x="945" y="222" text-anchor="middle" class="txt">認証・許可</text>
+
+  <rect x="415" y="250" width="200" height="42" rx="10" class="panel"/>
+  <text x="515" y="277" text-anchor="middle" class="txt">サービス管理</text>
+
+  <rect x="630" y="250" width="200" height="42" rx="10" class="panel"/>
+  <text x="730" y="268" text-anchor="middle" class="txt">サービス利用</text>
+  <text x="730" y="285" text-anchor="middle" class="txt">履歴管理</text>
+
+  <rect x="845" y="250" width="200" height="42" rx="10" class="panel"/>
+  <text x="945" y="277" text-anchor="middle" class="txt">開発者ポータル</text>
+
+  
+  <rect x="400" y="345" width="660" height="120" rx="16" class="panel"/>
+  <text x="730" y="385" text-anchor="middle" class="title">データマネジメント</text>
+
+  <rect x="420" y="400" width="300" height="42" rx="10" class="blue"/>
+  <text x="570" y="427" text-anchor="middle" class="blueText">パーソナルブローカー</text>
+
+  <rect x="750" y="400" width="300" height="42" rx="10" class="blue"/>
+  <text x="905" y="427" text-anchor="middle" class="blueText">非パーソナルブローカー</text>
+
+  
+  <rect x="400" y="480" width="660" height="105" rx="16" class="panel"/>
+  <text x="730" y="520" text-anchor="middle" class="title">アセットマネジメント</text>
+
+  <rect x="420" y="535" width="300" height="36" rx="8" class="panel"/>
+  <rect x="750" y="535" width="300" height="36" rx="8" class="panel"/>
+  <text x="565" y="558" text-anchor="middle" class="txt">デバイス管理</text>
+  <text x="895" y="558" text-anchor="middle" class="txt">システム管理</text>
+
+  
+  <rect x="400" y="615" width="660" height="105" rx="16" class="panel"/>
+  <text x="730" y="655" text-anchor="middle" class="title">外部データ連携</text>
+
+  <rect x="420" y="670" width="300" height="36" rx="8" class="panel"/>
+  <rect x="750" y="670" width="300" height="36" rx="8" class="panel"/>
+  <text x="565" y="693" text-anchor="middle" class="txt">データ処理</text>
+  <text x="895" y="693" text-anchor="middle" class="txt">データ転送</text>
+
+  
+  <rect x="380" y="800" width="700" height="60" rx="18" class="panel"/>
+  <text x="730" y="840" text-anchor="middle" class="head">外部トラストサービス</text>
+
+  
+  <rect x="1170" y="40" width="340" height="820" rx="18" class="dashed"/>
+  <text x="1340" y="90" text-anchor="middle" class="head">データアセット</text>
+  <text x="1290" y="120" class="title">（随時拡張）</text>
+
+  <rect x="1190" y="130" width="300" height="220" rx="16" class="panel"/>
+  <text x="1340" y="170" text-anchor="middle" class="title">データホルダー</text>
+
+  <rect x="1205" y="195" width="130" height="55" rx="10" class="panel"/>
+  <rect x="1347" y="195" width="130" height="55" rx="10" class="panel"/>
+  <rect x="1205" y="270" width="130" height="55" rx="10" class="panel"/>
+
+  <text x="1272" y="230" text-anchor="middle" class="txt">地理空間データ</text>
+  <text x="1410" y="220" text-anchor="middle" class="txt">オープン</text>
+  <text x="1410" y="236" text-anchor="middle" class="txt">データ</text>
+  <text x="1270" y="302" text-anchor="middle" class="txt">公共データ</text>
+  <text x="1420" y="310" text-anchor="middle" class="txt">……など</text>
+
+  <rect x="1190" y="390" width="300" height="230" rx="16" class="panel"/>
+  <text x="1340" y="420" text-anchor="middle" class="title">他のネットワーク基盤のデータ</text>
+
+  <rect x="1210" y="445" width="130" height="60" rx="10" class="panel"/>
+  <rect x="1360" y="445" width="110" height="60" rx="10" class="panel"/>
+  <rect x="1210" y="530" width="130" height="60" rx="10" class="panel"/>
+
+  <text x="1275" y="472" text-anchor="middle" class="txt">公共サービス</text>
+  <text x="1275" y="492" text-anchor="middle" class="txt">メッシュ</text>
+  <text x="1415" y="479" text-anchor="middle" class="txt">PMH</text>
+  <text x="1275" y="565" text-anchor="middle" class="txt">防災データ</text>
+  <text x="1415" y="570" text-anchor="middle" class="txt">……など</text>
+
+  <rect x="1190" y="660" width="300" height="120" rx="16" class="panel"/>
+  <text x="1340" y="710" text-anchor="middle" class="title">センサー・ドローン</text>
+  <text x="1340" y="740" text-anchor="middle" class="title">などのデータ</text>
+  <text x="1340" y="820" text-anchor="middle" class="title">……など</text>
+
+  
+  <line x1="240" y1="465" x2="365" y2="465" stroke="#0017B6" stroke-width="3" marker-start="url(#arrowStart)" marker-end="url(#arrowEnd)"/>
+  <text x="302" y="410" text-anchor="middle" class="title">データ連携・</text>
+  <text x="302" y="440" text-anchor="middle" class="title">利活用</text>
+
+  <line x1="1160" y1="465" x2="1085" y2="465" stroke="#0017B6" stroke-width="3" marker-end="url(#arrowEnd)"/>
+  <text x="1095" y="410" class="title">データ</text>
+  <text x="1105" y="440" class="title">提供</text>
+
+  <line x1="730" y1="760" x2="730" y2="800" stroke="#0017B6" stroke-width="2" marker-start="url(#arrowStart)" marker-end="url(#arrowEnd)"/>
+  <text x="752" y="787" class="title">連携</text>
+
+  
+  <circle cx="38" cy="400" r="10" stroke="#222" stroke-width="3" fill="none"/>
+  <path d="M20 430 Q38 405 56 430" stroke="#222" stroke-width="3" fill="none"/>
+  <text x="38" y="470" text-anchor="middle" class="head">住民</text>
+
+</svg>
