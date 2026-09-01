@@ -17,12 +17,10 @@
 - **生成AIの活用** — 例：第5章（コスト構造）をLLMに読み込ませ、財政課向け予算要求資料や想定Q&Aのたたき台を作成
 
 ## 表示に関する留意点
-本文中のインラインSVG図は、GitHubのMarkdownサニタイズにより除去されるため、GitHub上のプレビューでは表示されません。図を閲覧する場合はローカル環境またはGitHub Pagesをご利用ください。なお、Mermaid図はGitHub上でそのまま表示されます。
+本文中のインラインSVG図は、GitHubのMarkdownサニタイズにより除去されるため、GitHub上のプレビューでは表示されません。図を閲覧する場合はローカル環境またはHTML版をダウンロードしてご確認ください。
 
 ## ライセンス
-このキュメントは、以下のライセンスを適用します。
- [CC BY 4.0 International](https://creativecommons.org/licenses/by/4.0/) 
-© 2026 Digital Agency,Government of Japan
+本リポジトリではPDLライセンスの下で公開されています。
 
 <div align="right">
 
