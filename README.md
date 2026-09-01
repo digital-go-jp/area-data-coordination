@@ -17,6 +17,6 @@
 
 本リポジトリはPDLライセンスの下で公開されています。
 
-# 問合せ先
+## ご意見・ご要望について
 
-[デジタル庁 国民向けサービスグループ デジタル公共財担当 エリアデータ連携基盤班](https://www.digital.go.jp/policies/digital_garden_city_nation/area-data-coordination-platform#contact)
+本ドキュメントに関するご意見・ご要望は受け付けておりません。
