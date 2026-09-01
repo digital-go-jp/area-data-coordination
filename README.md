@@ -13,4 +13,10 @@
 
 2026年9月4日公開　[初版](datamodels/エリアデータ活用のためのデータモデル（実践ガイドライン）.md)
 
-フィードバックはデジタル庁エリアデータ連携基盤の[問合せ先](https://www.digital.go.jp/policies/digital_garden_city_nation/area-data-coordination-platform#contact)
+# ライセンス
+
+本コードスニペットはPDLライセンスの下で公開されています。
+
+# 問合せ先
+
+[デジタル庁 国民向けサービスグループ デジタル公共財担当 エリアデータ連携基盤班](https://www.digital.go.jp/policies/digital_garden_city_nation/area-data-coordination-platform#contact)
