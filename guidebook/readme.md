@@ -15,7 +15,7 @@ Markdownファイルは、AI等の活用を想定した機械判読可能な、�
 本文中のインラインSVG図は、GitHubのMarkdownのサニタイズでは除去されるため、GitHub上のプレビューでは表示されません。図を閲覧する場合はローカル環境で確認可能なmarkdownツールをご利用いただくか、またはHTML版をダウンロードしてご確認ください。
 
 ## ライセンス
-本リポジトリではPDLライセンスの下で公開されています。
+本リポジトリでは[PDL](https://www.digital.go.jp/resources/open_data/public_data_license_v1.0)ライセンスの下で公開されています。
 
 <div align="right">
 
