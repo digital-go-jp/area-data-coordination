@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="560" viewBox="0 0 1400 560" role="img" aria-labelledby="diagramTitle diagramDesc">
+  <title id="diagramTitle">08_7-1共同利用前の状態における5つの類型</title>
+  <desc id="diagramDesc">
+    共同利用前の状態から、基盤なし、フル機能の単独運営、官民混在の単独運営、
+    非パーソナルのみの単独運営、パーソナルのみの単独運営という5つの類型に分岐する図。
+  </desc>
+
+  <defs>
+    <style>
+      .diagram-text {
+        font-family: "Noto Sans JP", sans-serif;
+        fill: #0017B6;
+      }
+
+      .root-label {
+        font-size: 25px;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+      }
+
+      .type-title {
+        font-size: 20px;
+        font-weight: 700;
+      }
+
+      .type-description {
+        font-size: 16px;
+        font-weight: 500;
+      }
+
+      .connector {
+        fill: none;
+        stroke: #0017B6;
+        stroke-width: 3;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .card {
+        stroke: #0017B6;
+        stroke-width: 2;
+        fill: #FFFFFF;
+      }
+    </style>
+
+    <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#0017B6" flood-opacity="0.13"/>
+    </filter>
+
+    <marker id="arrowHead" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M 0 0 L 10 5 L 0 10 Z" fill="#0017B6"/>
+    </marker>
+  </defs>
+
+  <rect id="background" x="0" y="0" width="1400" height="560" fill="#FFFFFF"/>
+
+  
+  <g id="rootNode" filter="url(#cardShadow)">
+    <rect id="rootBox" x="505" y="40" width="390" height="92" rx="20" fill="#0017B6"/>
+    <text id="rootText" x="700" y="96" text-anchor="middle" fill="#FFFFFF" font-family="Noto Sans JP, sans-serif" font-size="25" font-weight="700" letter-spacing="0.04em">
+      共同利用前の状態
+    </text>
+  </g>
+
+  
+  <g id="connectors">
+    <path id="rootStem" class="connector" d="M 700 132 L 700 185"/>
+
+    <path id="branchLine" class="connector" d="M 140 185 L 1260 185"/>
+
+    <circle id="branchPoint" cx="700" cy="185" r="6" fill="#0017B6"/>
+
+    <path id="connectorTypeOne" class="connector" d="M 140 185 L 140 242" marker-end="url(#arrowHead)"/>
+
+    <path id="connectorTypeTwo" class="connector" d="M 420 185 L 420 242" marker-end="url(#arrowHead)"/>
+
+    <path id="connectorTypeThree" class="connector" d="M 700 185 L 700 242" marker-end="url(#arrowHead)"/>
+
+    <path id="connectorTypeFour" class="connector" d="M 980 185 L 980 242" marker-end="url(#arrowHead)"/>
+
+    <path id="connectorTypeFive" class="connector" d="M 1260 185 L 1260 242" marker-end="url(#arrowHead)"/>
+  </g>
+
+  
+  <g id="typeOneCard" filter="url(#cardShadow)">
+    <rect id="typeOneBox" class="card" x="25" y="260" width="230" height="225" rx="18"/>
+
+    <rect id="typeOneHeader" x="25" y="260" width="230" height="58" rx="18" fill="#0017B6"/>
+    <path id="typeOneHeaderFill" d="M 25 300 L 255 300 L 255 318 L 25 318 Z" fill="#0017B6"/>
+
+    <text id="typeOneTitle" x="140" y="297" text-anchor="middle" fill="#FFFFFF" font-family="Noto Sans JP, sans-serif" font-size="20" font-weight="700">
+      型1.1
+    </text>
+
+    <text id="typeOneMain" class="diagram-text" x="140" y="365" text-anchor="middle">
+      <tspan id="typeOneMainLine" class="type-title" x="140" dy="0">基盤なし</tspan>
+      <tspan id="typeOneDescriptionLineOne" class="type-description" x="140" dy="45">域内に運営自治体が</tspan>
+      <tspan id="typeOneDescriptionLineTwo" class="type-description" x="140" dy="28">ない</tspan>
+    </text>
+  </g>
+
+  
+  <g id="typeTwoCard" filter="url(#cardShadow)">
+    <rect id="typeTwoBox" class="card" x="305" y="260" width="230" height="225" rx="18"/>
+
+    <rect id="typeTwoHeader" x="305" y="260" width="230" height="58" rx="18" fill="#0017B6"/>
+    <path id="typeTwoHeaderFill" d="M 305 300 L 535 300 L 535 318 L 305 318 Z" fill="#0017B6"/>
+
+    <text id="typeTwoTitle" x="420" y="297" text-anchor="middle" fill="#FFFFFF" font-family="Noto Sans JP, sans-serif" font-size="20" font-weight="700">
+      型1.2
+    </text>
+
+    <text id="typeTwoMain" class="diagram-text" x="420" y="359" text-anchor="middle">
+      <tspan id="typeTwoMainLine" class="type-title" x="420" dy="0">単独運営</tspan>
+      <tspan id="typeTwoFeature" class="type-description" x="420" dy="41">フル機能</tspan>
+      <tspan id="typeTwoDescriptionLineOne" class="type-description" x="420" dy="33">非パーソナル</tspan>
+      <tspan id="typeTwoDescriptionLineTwo" class="type-description" x="420" dy="28">＋ パーソナル</tspan>
+    </text>
+  </g>
+
+  
+  <g id="typeThreeCard" filter="url(#cardShadow)">
+    <rect id="typeThreeBox" class="card" x="585" y="260" width="230" height="225" rx="18"/>
+
+    <rect id="typeThreeHeader" x="585" y="260" width="230" height="58" rx="18" fill="#0017B6"/>
+    <path id="typeThreeHeaderFill" d="M 585 300 L 815 300 L 815 318 L 585 318 Z" fill="#0017B6"/>
+
+    <text id="typeThreeTitle" x="700" y="297" text-anchor="middle" fill="#FFFFFF" font-family="Noto Sans JP, sans-serif" font-size="20" font-weight="700">
+      型1.3
+    </text>
+
+    <text id="typeThreeMain" class="diagram-text" x="700" y="359" text-anchor="middle">
+      <tspan id="typeThreeMainLine" class="type-title" x="700" dy="0">単独運営</tspan>
+      <tspan id="typeThreeFeature" class="type-description" x="700" dy="41">官民混在</tspan>
+      <tspan id="typeThreeDescriptionLineOne" class="type-description" x="700" dy="33">非パーソナル</tspan>
+      <tspan id="typeThreeDescriptionLineTwo" class="type-description" x="700" dy="28">＋ パーソナル</tspan>
+    </text>
+  </g>
+
+  
+  <g id="typeFourCard" filter="url(#cardShadow)">
+    <rect id="typeFourBox" class="card" x="865" y="260" width="230" height="225" rx="18"/>
+
+    <rect id="typeFourHeader" x="865" y="260" width="230" height="58" rx="18" fill="#0017B6"/>
+    <path id="typeFourHeaderFill" d="M 865 300 L 1095 300 L 1095 318 L 865 318 Z" fill="#0017B6"/>
+
+    <text id="typeFourTitle" x="980" y="297" text-anchor="middle" fill="#FFFFFF" font-family="Noto Sans JP, sans-serif" font-size="20" font-weight="700">
+      型1.4
+    </text>
+
+    <text id="typeFourMain" class="diagram-text" x="980" y="365" text-anchor="middle">
+      <tspan id="typeFourMainLine" class="type-title" x="980" dy="0">単独運営</tspan>
+      <tspan id="typeFourFeature" class="type-description" x="980" dy="41">機能限定</tspan>
+      <tspan id="typeFourDescriptionLineOne" class="type-description" x="980" dy="37">非パーソナルのみ</tspan>
+    </text>
+  </g>
+
+  
+  <g id="typeFiveCard" filter="url(#cardShadow)">
+    <rect id="typeFiveBox" class="card" x="1145" y="260" width="230" height="225" rx="18"/>
+
+    <rect id="typeFiveHeader" x="1145" y="260" width="230" height="58" rx="18" fill="#0017B6"/>
+    <path id="typeFiveHeaderFill" d="M 1145 300 L 1375 300 L 1375 318 L 1145 318 Z" fill="#0017B6"/>
+
+    <text id="typeFiveTitle" x="1260" y="297" text-anchor="middle" fill="#FFFFFF" font-family="Noto Sans JP, sans-serif" font-size="20" font-weight="700">
+      型1.5
+    </text>
+
+    <text id="typeFiveMain" class="diagram-text" x="1260" y="365" text-anchor="middle">
+      <tspan id="typeFiveMainLine" class="type-title" x="1260" dy="0">単独運営</tspan>
+      <tspan id="typeFiveFeature" class="type-description" x="1260" dy="41">機能限定</tspan>
+      <tspan id="typeFiveDescriptionLineOne" class="type-description" x="1260" dy="37">パーソナルのみ</tspan>
+    </text>
+  </g>
+</svg>

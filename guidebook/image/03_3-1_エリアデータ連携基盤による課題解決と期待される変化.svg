@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="620" viewBox="0 0 1440 620">
+  <title>03_3-1_エリアデータ連携基盤による課題解決と期待される変化</title>
+  <desc>
+    現状の3つの課題に対し、エリアデータ連携基盤が相互運用、データ流通、拡張容易の3要素を実現し、
+    地域横展開、分野横断サービス、段階的な機能追加につなげる図。
+  </desc>
+
+  <defs>
+    <style>
+      text {
+        font-family: "Noto Sans JP", sans-serif;
+      }
+
+      .section-label {
+        font-size: 24px;
+        font-weight: 700;
+        fill: #0017B6;
+        letter-spacing: 0.04em;
+      }
+
+      .section-subtitle {
+        font-size: 14px;
+        font-weight: 500;
+        fill: #0017B6;
+        opacity: 0.72;
+      }
+
+      .card-title {
+        font-size: 19px;
+        font-weight: 700;
+        fill: #0017B6;
+      }
+
+      .card-body {
+        font-size: 18px;
+        font-weight: 500;
+        fill: #0017B6;
+      }
+
+      .solution-number {
+        font-size: 15px;
+        font-weight: 700;
+        fill: #FFFFFF;
+      }
+
+      .solution-title {
+        font-size: 24px;
+        font-weight: 700;
+        fill: #0017B6;
+      }
+
+      .solution-reading {
+        font-size: 17px;
+        font-weight: 500;
+        fill: #0017B6;
+      }
+
+      .flow-label {
+        font-size: 13px;
+        font-weight: 700;
+        fill: #0017B6;
+        letter-spacing: 0.06em;
+      }
+    </style>
+
+    <filter id="shadow_card" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#0017B6" flood-opacity="0.10"/>
+    </filter>
+
+    <marker id="arrow_head" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M 0 0 L 10 5 L 0 10 Z" fill="#0017B6"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1440" height="620" fill="#FFFFFF"/>
+
+  
+  <rect x="52" y="20" width="390" height="580" rx="28" fill="#F3EEE5"/>
+  <rect x="525" y="20" width="390" height="580" rx="28" fill="#C0D7FB" opacity="0.42"/>
+  <rect x="998" y="20" width="390" height="580" rx="28" fill="#F3EEE5"/>
+
+  
+  <text x="116" y="70" class="section-label" transform="translate(65.88, 4.6)" style="">現状の課題</text>
+
+  <text x="589" y="64" class="section-label" transform="translate(16.85, 10.72)" style="">基盤で実現する3要素</text>
+ 
+  <text x="1062" y="70" class="section-label" transform="translate(42.9, 12.26)" style="">期待される変化</text>
+
+  
+  <text x="484" y="139" text-anchor="middle" class="flow-label">解決</text>
+  <text x="956" y="139" text-anchor="middle" class="flow-label">実現</text>
+
+  <text x="484" y="299" text-anchor="middle" class="flow-label">解決</text>
+  <text x="956" y="299" text-anchor="middle" class="flow-label">実現</text>
+
+  <text x="484" y="459" text-anchor="middle" class="flow-label">解決</text>
+  <text x="956" y="459" text-anchor="middle" class="flow-label">実現</text>
+
+  
+  <line x1="411" y1="170" x2="548" y2="170" stroke="#0017B6" stroke-width="3" stroke-linecap="round" marker-end="url(#arrow_head)"/>
+  <line x1="892" y1="170" x2="1029" y2="170" stroke="#0017B6" stroke-width="3" stroke-linecap="round" marker-end="url(#arrow_head)"/>
+
+  <line x1="411" y1="330" x2="548" y2="330" stroke="#0017B6" stroke-width="3" stroke-linecap="round" marker-end="url(#arrow_head)"/>
+  <line x1="892" y1="330" x2="1029" y2="330" stroke="#0017B6" stroke-width="3" stroke-linecap="round" marker-end="url(#arrow_head)"/>
+
+  <line x1="411" y1="490" x2="548" y2="490" stroke="#0017B6" stroke-width="3" stroke-linecap="round" marker-end="url(#arrow_head)"/>
+  <line x1="892" y1="490" x2="1029" y2="490" stroke="#0017B6" stroke-width="3" stroke-linecap="round" marker-end="url(#arrow_head)"/>
+
+  
+  <g id="problem_card_1" filter="url(#shadow_card)">
+    <rect x="80" y="115" width="332" height="110" rx="18" fill="#FFFFFF" stroke="#0017B6" stroke-width="1.5"/>
+    <text x="144" y="156" class="card-body">
+      <tspan x="144" dy="10">サービスの横展開が</tspan>
+      <tspan x="144" dy="28">難しい</tspan>
+    </text>
+  </g>
+
+  <g id="problem_card_2" filter="url(#shadow_card)">
+    <rect x="80" y="275" width="332" height="110" rx="18" fill="#FFFFFF" stroke="#0017B6" stroke-width="1.5"/>
+    <text x="144" y="322" class="card-body">
+      <tspan x="144" dy="0">分野横断的な</tspan>
+      <tspan x="144" dy="28">データ利活用が困難</tspan>
+    </text>
+  </g>
+
+  <g id="problem_card_3" filter="url(#shadow_card)">
+    <rect x="80" y="435" width="332" height="110" rx="18" fill="#FFFFFF" stroke="#0017B6" stroke-width="1.5"/>
+    <text x="144" y="482" class="card-body">
+      <tspan x="144" dy="0">拡張性が低く、継続的な</tspan>
+      <tspan x="144" dy="28">機能拡張がしにくい</tspan>
+    </text>
+  </g>
+
+  
+  <g id="solution_card_1" filter="url(#shadow_card)">
+    <rect x="552" y="105" width="340" height="130" rx="22" fill="#FFFFFF" stroke="#0017B6" stroke-width="3"/>
+    <circle cx="590" cy="170" r="20" fill="#0017B6"/>
+    <text x="590" y="175" text-anchor="middle" class="solution-number">1</text>
+    <text x="722" y="168" text-anchor="middle" class="solution-title">相互運用</text>
+    <text x="722" y="190" text-anchor="middle" class="solution-reading">（つながる）</text>
+  </g>
+
+  <g id="solution_card_2" filter="url(#shadow_card)">
+    <rect x="552" y="265" width="340" height="130" rx="22" fill="#FFFFFF" stroke="#0017B6" stroke-width="3"/>
+    <circle cx="590" cy="330" r="20" fill="#0017B6"/>
+    <text x="590" y="335" text-anchor="middle" class="solution-number">2</text>
+    <text x="722" y="330" text-anchor="middle" class="solution-title">データ流通</text>
+    <text x="722" y="350" text-anchor="middle" class="solution-reading">（ながれる）</text>
+  </g>
+
+  <g id="solution_card_3" filter="url(#shadow_card)">
+    <rect x="552" y="425" width="340" height="130" rx="22" fill="#FFFFFF" stroke="#0017B6" stroke-width="3"/>
+    <circle cx="590" cy="485" r="20" fill="#0017B6"/>
+    <text x="590" y="490" text-anchor="middle" class="solution-number">3</text>
+    <text x="722" y="485" text-anchor="middle" class="solution-title">拡張容易</text>
+    <text x="722" y="510" text-anchor="middle" class="solution-reading">（ひろげられる）</text>
+  </g>
+
+  
+  <g id="outcome_card_1" filter="url(#shadow_card)">
+    <rect x="1028" y="115" width="332" height="110" rx="18" fill="#FFFFFF" stroke="#0017B6" stroke-width="1.5"/>
+    <text x="1092" y="166" class="card-body">
+      <tspan x="1092" dy="0">優れたサービスを</tspan>
+      <tspan x="1092" dy="28">他地域へ横展開</tspan>
+    </text>
+  </g>
+
+  <g id="outcome_card_2" filter="url(#shadow_card)">
+    <rect x="1028" y="275" width="332" height="110" rx="18" fill="#FFFFFF" stroke="#0017B6" stroke-width="1.5"/>
+    <text x="1092" y="325" class="card-body">
+      <tspan x="1092" dy="0">防災・交通・医療などの</tspan>
+      <tspan x="1092" dy="28">分野横断サービス創出</tspan>
+    </text>
+  </g>
+
+  <g id="outcome_card_3" filter="url(#shadow_card)">
+    <rect x="1028" y="435" width="332" height="110" rx="18" fill="#FFFFFF" stroke="#0017B6" stroke-width="1.5"/>
+    <text x="1092" y="485" class="card-body">
+      <tspan x="1092" dy="0">必要な機能を段階的に</tspan>
+      <tspan x="1092" dy="28">追加・交換</tspan>
+    </text>
+  </g>
+</svg>

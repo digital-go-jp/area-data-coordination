@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1060" height="180" viewBox="0 0 1060 180">
+  <title id="diagram_title">35_15-2_既存認証システムと共通IDの紐付け（IDリンク）</title>
+  <defs>
+    <style>
+      .title {
+        font: 700 16px "Noto Sans JP", sans-serif;
+        fill: #333;
+      }
+      .head {
+        font: 500 14px "Noto Sans JP", sans-serif;
+        fill: #333;
+      }
+      .text {
+        font: 400 16px "Noto Sans JP", sans-serif;
+        fill: #333;
+      }
+      .accent {
+        fill: #0017B6;
+      }
+      .null {
+        fill: #6BBCCB;
+      }
+      .note {
+        font: 400 12px "Noto Sans JP", sans-serif;
+        fill: #333;
+      }
+      .border {
+        stroke: #0017B6;
+        stroke-width: 1.5;
+        fill: none;
+      }
+    </style>
+  </defs>
+
+  
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+
+  
+  <text x="4" y="26" class="title">【既存会員データベースのテーブル拡張イメージ】</text>
+
+  
+  <g transform="translate(4,44)">
+    
+    <rect x="0" y="0" width="540" height="122" class="border"/>
+
+    
+    <line x1="112" y1="0" x2="112" y2="122" class="border"/>
+    <line x1="346" y1="0" x2="346" y2="122" class="border"/>
+
+    
+    <line x1="0" y1="48" x2="540" y2="48" class="border"/>
+
+    
+    <text x="20" y="28" class="head">アプリID</text>
+    <text x="128" y="28" class="head">パスワード（ハッシュ）</text>
+    <text x="362" y="28" class="head">共通ID識別子</text>
+
+    
+    <text x="16" y="80" class="text">APP_001</text>
+    <text x="128" y="80" class="text">** …</text>
+    <text x="362" y="80" class="text accent">user_1234567890</text>
+
+    
+    <text x="16" y="108" class="text">APP_002</text>
+    <text x="128" y="108" class="text">** …</text>
+    <text x="362" y="108" class="text null">NULL</text>
+  </g>
+
+
+  
+  <text x="560" y="122" class="note">→ 連携済み（共通IDでログイン可）</text>
+  <text x="560" y="148" class="note">→ 未連携（移行期：従来のID/PWでログイン可）</text>
+
+</svg>

@@ -1,0 +1,264 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="svgTitle svgDesc">
+  <title id="svgTitle">29_13-2_エリアデータ連携基盤によるエビデンス・ベースのまちづくり</title>
+  <desc id="svgDesc">
+    行政の施策をきっかけに、エリアデータ連携基盤が活動を仲介し、
+    住民の反応をデータで捉え、まちのバイタルサインを分析する。
+    分析結果を次の施策へ反映し、エビデンス・ベースのまちづくりへ進化する循環図。
+  </desc>
+
+  <defs>
+    <style>
+      .step-number {
+        font-family: "Noto Sans JP", sans-serif;
+        font-size: 17px;
+        font-weight: 700;
+        fill: #FFFFFF;
+        text-anchor: middle;
+        dominant-baseline: middle;
+      }
+
+      .card-title {
+        font-family: "Noto Sans JP", sans-serif;
+        font-size: 23px;
+        font-weight: 700;
+        fill: #0017B6;
+      }
+
+      .card-body {
+        font-family: "Noto Sans JP", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        fill: #343A59;
+      }
+
+      .connector-label {
+        font-family: "Noto Sans JP", sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        fill: #0017B6;
+        text-anchor: middle;
+      }
+
+      .result-title {
+        font-family: "Noto Sans JP", sans-serif;
+        font-size: 29px;
+        font-weight: 700;
+        fill: #FFFFFF;
+      }
+
+      .result-subtitle {
+        font-family: "Noto Sans JP", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        fill: #FFFFFF;
+      }
+
+      .arrow {
+        fill: none;
+        stroke: #0017B6;
+        stroke-width: 4;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        marker-end: url(#arrowHead);
+      }
+
+      .return-arrow {
+        fill: none;
+        stroke: #0017B6;
+        stroke-width: 4;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-dasharray: 9 8;
+        marker-end: url(#arrowHead);
+      }
+    </style>
+
+    <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="7" stdDeviation="8" flood-color="#0017B6" flood-opacity="0.12"/>
+    </filter>
+
+    <filter id="resultShadow" x="-20%" y="-30%" width="140%" height="170%">
+      <feDropShadow dx="0" dy="9" stdDeviation="10" flood-color="#0017B6" flood-opacity="0.22"/>
+    </filter>
+
+    <linearGradient id="resultGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0017B6"/>
+      <stop offset="100%" stop-color="#1739D1"/>
+    </linearGradient>
+
+    <marker id="arrowHead" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M 1 1 L 11 6 L 1 11 Z" fill="#0017B6"/>
+    </marker>
+  </defs>
+
+  <rect id="background" x="0" y="0" width="1200" height="680" fill="#FFFFFF"/>
+
+  
+  <g id="triggerCard" filter="url(#cardShadow)">
+    <rect id="triggerCardBody" x="70" y="45" width="285" height="190" rx="22" fill="#F3EEE5" stroke="#0017B6" stroke-width="2"/>
+
+    <circle id="triggerStepCircle" cx="105" cy="78" r="19" fill="#0017B6"/>
+
+    <text class="step-number" x="105" y="78">1</text>
+
+    <text class="card-title" x="135" y="86">
+      行政の施策
+      <tspan x="135" dy="29">（きっかけ）</tspan>
+    </text>
+
+    <line id="triggerDivider" x1="98" y1="136" x2="327" y2="136" stroke="#C0D7FB" stroke-width="3" stroke-linecap="round"/>
+
+    <text class="card-body" x="98" y="167">
+      <tspan x="98" dy="0">新サービスの導入</tspan>
+      <tspan x="98" dy="25">インフラ整備</tspan>
+      <tspan x="98" dy="25">イベント開催など</tspan>
+    </text>
+  </g>
+
+  
+  <g id="platformCard" filter="url(#cardShadow)">
+    <rect id="platformCardBody" x="458" y="45" width="285" height="190" rx="22" fill="#C0D7FB" stroke="#0017B6" stroke-width="2"/>
+
+    <circle id="platformStepCircle" cx="493" cy="78" r="19" fill="#0017B6"/>
+
+    <text class="step-number" x="493" y="78">2</text>
+
+    <text class="card-title" x="523" y="86">
+      エリアデータ
+      <tspan x="523" dy="29">連携基盤</tspan>
+    </text>
+
+    <line id="platformDivider" x1="486" y1="136" x2="715" y2="136" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+
+    <g id="platformIcon">
+      <line id="platformIconLineA" x1="527" y1="174" x2="574" y2="196" stroke="#0017B6" stroke-width="3"/>
+
+      <line id="platformIconLineB" x1="574" y1="196" x2="622" y2="170" stroke="#0017B6" stroke-width="3"/>
+
+      <line id="platformIconLineC" x1="574" y1="196" x2="661" y2="199" stroke="#0017B6" stroke-width="3"/>
+
+      <circle id="platformIconNodeA" cx="527" cy="174" r="8" fill="#FFFFFF" stroke="#0017B6" stroke-width="3"/>
+
+      <circle id="platformIconNodeB" cx="574" cy="196" r="10" fill="#0017B6"/>
+
+      <circle id="platformIconNodeC" cx="622" cy="170" r="8" fill="#FFFFFF" stroke="#0017B6" stroke-width="3"/>
+
+      <circle id="platformIconNodeD" cx="661" cy="199" r="8" fill="#FFFFFF" stroke="#0017B6" stroke-width="3"/>
+    </g>
+
+    <text class="card-body" x="600" y="222" text-anchor="middle">
+      活動を仲介
+    </text>
+  </g>
+
+  
+  <g id="reactionCard" filter="url(#cardShadow)">
+    <rect id="reactionCardBody" x="846" y="45" width="285" height="190" rx="22" fill="#F3EEE5" stroke="#0017B6" stroke-width="2"/>
+
+    <circle id="reactionStepCircle" cx="881" cy="78" r="19" fill="#0017B6"/>
+
+    <text class="step-number" x="881" y="78">3</text>
+
+    <text class="card-title" x="911" y="86">
+      住民の反応
+      <tspan x="911" dy="29">（リアクション）</tspan>
+    </text>
+
+    <line id="reactionDivider" x1="874" y1="136" x2="1103" y2="136" stroke="#C0D7FB" stroke-width="3" stroke-linecap="round"/>
+
+    <text class="card-body" x="874" y="163">
+      <tspan x="874" dy="0">利用率の変動</tspan>
+      <tspan x="874" dy="23">移動パターンの変化</tspan>
+      <tspan x="874" dy="23">健康状態の改善など</tspan>
+    </text>
+  </g>
+
+  
+  <path id="arrowTriggerToPlatform" class="arrow" d="M 370 140 L 437 140"/>
+
+  <path id="arrowPlatformToReaction" class="arrow" d="M 758 140 L 825 140"/>
+
+  
+  <g id="analysisCard" filter="url(#cardShadow)">
+    <rect id="analysisCardBody" x="315" y="315" width="570" height="145" rx="24" fill="#FFFFFF" stroke="#0017B6" stroke-width="3"/>
+
+    <circle id="analysisStepCircle" cx="356" cy="353" r="21" fill="#0017B6"/>
+
+    <text class="step-number" x="356" y="353">4</text>
+
+    <g id="analysisIcon">
+      <rect id="analysisIconFrame" x="788" y="344" width="58" height="58" rx="12" fill="#C0D7FB"/>
+
+      <polyline id="analysisIconChart" points="800,388 811,375 821,380 835,361" fill="none" stroke="#0017B6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+      <circle id="analysisChartPointA" cx="800" cy="388" r="3.5" fill="#0017B6"/>
+
+      <circle id="analysisChartPointB" cx="811" cy="375" r="3.5" fill="#0017B6"/>
+
+      <circle id="analysisChartPointC" cx="821" cy="380" r="3.5" fill="#0017B6"/>
+
+      <circle id="analysisChartPointD" cx="835" cy="361" r="3.5" fill="#0017B6"/>
+    </g>
+
+    <text class="card-title" x="391" y="362">
+      データを分析
+    </text>
+
+    <text class="card-body" x="356" y="408">
+      <tspan x="356" dy="0">
+        「まちのバイタルサイン」の変化を
+      </tspan>
+      <tspan x="356" dy="27" font-weight="700" fill="#0017B6">
+        可視化
+      </tspan>
+    </text>
+  </g>
+
+  
+  <path id="arrowReactionToAnalysis" class="arrow" d="M 988 240 L 988 400 888 400"/>
+
+  
+  <path id="returnArrowToTrigger" class="return-arrow" d="M 315 390 L 206 390 205 240"/>
+
+  <g id="returnLabelGroup">
+    <rect id="returnLabelBackground" x="125" y="334" width="151" height="38" rx="19" fill="#FFFFFF" stroke="#C0D7FB" stroke-width="2"/>
+
+    <text class="connector-label" x="200" y="359">
+      次の施策へ反映
+    </text>
+  </g>
+
+  
+  <path id="arrowAnalysisToResult" class="arrow" d="M 600 465 L 600 525"/>
+
+  
+  <g id="resultGroup" filter="url(#resultShadow)">
+    <rect id="resultBody" x="235" y="530" width="730" height="112" rx="30" fill="url(#resultGradient)"/>
+
+    <g id="lightbulbIcon">
+      <circle id="lightbulbGlow" cx="304" cy="577" r="29" fill="#C0D7FB" opacity="0.28"/>
+
+      <path id="lightbulbBulb" d="M 304 555           C 289 555, 281 567, 281 578           C 281 587, 286 592, 291 597           C 294 600, 295 603, 295 607           L 313 607           C 313 603, 314 600, 317 597           C 322 592, 327 587, 327 578           C 327 567, 319 555, 304 555           Z" fill="#FFFFFF"/>
+
+      <line id="lightbulbBaseLineA" x1="296" y1="612" x2="312" y2="612" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+
+      <line id="lightbulbBaseLineB" x1="299" y1="618" x2="309" y2="618" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+
+      <line id="lightbulbRayTop" x1="304" y1="542" x2="304" y2="535" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+
+      <line id="lightbulbRayLeft" x1="279" y1="551" x2="273" y2="545" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+
+      <line id="lightbulbRayRight" x1="329" y1="551" x2="335" y2="545" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+    </g>
+
+    <text class="result-title" x="357" y="581">
+      エビデンス・ベースの
+      <tspan x="357" dy="35">まちづくりへ進化</tspan>
+    </text>
+
+    <text class="result-subtitle" x="875" y="578" text-anchor="middle">
+      <tspan x="875" dy="0">データに基づく</tspan>
+      <tspan x="875" dy="25">継続的な改善</tspan>
+    </text>
+  </g>
+</svg>

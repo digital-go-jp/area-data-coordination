@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760" role="img" aria-labelledby="svgTitle svgDesc">
+  <title id="svgTitle">04_3-2_エリアデータ連携基盤の構成図</title>
+  <desc id="svgDesc">
+    エリアデータ連携基盤を上部中央に配置し、その下にサービスマネジメント、
+    データマネジメント、アセットマネジメント、外部連携の4項目を横並びで中央配置した構成図。
+    各項目の番号は黒字で表示している。
+  </desc>
+
+  <defs>
+    <style>
+      .bg {
+        fill: #FFFFFF;
+      }
+      .hub_shadow,
+      .node_shadow {
+        fill: #0017B6;
+        opacity: 0.10;
+      }
+      .hub_box {
+        fill: #0017B6;
+        stroke: #0017B6;
+        stroke-width: 3;
+      }
+      .node_box_primary {
+        fill: #C0D7FB;
+        stroke: #0017B6;
+        stroke-width: 2.5;
+      }
+      .node_box_tertiary {
+        fill: #F3EEE5;
+        stroke: #0017B6;
+        stroke-width: 2.5;
+      }
+      .connector {
+        fill: none;
+        stroke: #0017B6;
+        stroke-width: 3;
+        stroke-linecap: butt;
+        stroke-linejoin: round;
+      }
+      .hub_text_main {
+        fill: #FFFFFF;
+        font-family: "Noto Sans JP", sans-serif;
+        font-size: 40px;
+        font-weight: 700;
+        text-anchor: middle;
+      }
+      .hub_text_sub {
+        fill: #FFFFFF;
+        font-family: "Noto Sans JP", sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        text-anchor: middle;
+      }
+      .node_text {
+        fill: #0017B6;
+        font-family: "Noto Sans JP", sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+        text-anchor: middle;
+      }
+      .node_num_text {
+        fill: #111111;
+        font-family: "Noto Sans JP", sans-serif;
+        font-size: 28px;
+        font-weight: 700;
+        text-anchor: middle;
+      }
+    </style>
+
+    <marker id="arrow_head_main" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M 0 0 L 12 6 L 0 12 Z" fill="#0017B6"/>
+    </marker>
+  </defs>
+
+  <rect id="bg_rect" class="bg" x="0" y="0" width="1400" height="760"/>
+
+  <g id="connectors_group">
+    <path id="connector_vertical_main" class="connector" d="M 700 262 L 700 320"/>
+    <path id="connector_horizontal_bus" class="connector" d="M 220 320 L 1180 320"/>
+    <path id="connector_node_1" class="connector" d="M 220 320 L 220 410" marker-end="url(#arrow_head_main)"/>
+    <path id="connector_node_2" class="connector" d="M 540 320 L 540 410" marker-end="url(#arrow_head_main)"/>
+    <path id="connector_node_3" class="connector" d="M 860 320 L 860 410" marker-end="url(#arrow_head_main)"/>
+    <path id="connector_node_4" class="connector" d="M 1180 320 L 1180 410" marker-end="url(#arrow_head_main)"/>
+  </g>
+
+  <g id="hub_group">
+    <rect id="hub_shadow_rect" class="hub_shadow" x="467" y="102" width="480" height="170" rx="28"/>
+    <rect id="hub_main_rect" class="hub_box" x="460" y="92" width="480" height="170" rx="28"/>
+    <text id="hub_text" x="700" y="170" class="hub_text_main">
+      <tspan x="700" dy="0">エリアデータ連携基盤</tspan>
+      <tspan x="700" dy="42" class="hub_text_sub">（データ連携のハブ）</tspan>
+    </text>
+  </g>
+
+  <g id="node_service_group">
+    <rect id="node_service_shadow" class="node_shadow" x="94" y="432" width="266" height="138" rx="22"/>
+    <rect id="node_service_rect" class="node_box_primary" x="87" y="422" width="266" height="138" rx="22"/>
+    <text id="node_service_num_text" class="node_num_text" x="126" y="465"/>
+    <text id="node_service_text" class="node_text" x="220" y="485">
+      <tspan x="220" dy="0">①サービス</tspan>
+      <tspan x="220" dy="34">マネジメント</tspan>
+    </text>
+  </g>
+
+  <g id="node_data_group">
+    <rect id="node_data_shadow" class="node_shadow" x="414" y="432" width="266" height="138" rx="22"/>
+    <rect id="node_data_rect" class="node_box_tertiary" x="407" y="422" width="266" height="138" rx="22"/>
+    <text id="node_data_num_text" class="node_num_text" x="446" y="465"/>
+    <text id="node_data_text" class="node_text" x="540" y="485">
+      <tspan x="540" dy="0">②データ</tspan>
+      <tspan x="540" dy="34">マネジメント</tspan>
+    </text>
+  </g>
+
+  <g id="node_asset_group">
+    <rect id="node_asset_shadow" class="node_shadow" x="734" y="432" width="266" height="138" rx="22"/>
+    <rect id="node_asset_rect" class="node_box_primary" x="727" y="422" width="266" height="138" rx="22"/>
+    <text id="node_asset_num_text" class="node_num_text" x="766" y="465"/>
+    <text id="node_asset_text" class="node_text" x="860" y="485">
+      <tspan x="860" dy="0">③アセット</tspan>
+      <tspan x="860" dy="34">マネジメント</tspan>
+    </text>
+  </g>
+
+  <g id="node_external_group">
+    <rect id="node_external_shadow" class="node_shadow" x="1054" y="432" width="266" height="138" rx="22"/>
+    <rect id="node_external_rect" class="node_box_tertiary" x="1047" y="422" width="266" height="138" rx="22"/>
+    <text id="node_external_num_text" class="node_num_text" x="1086" y="465"/>
+    <text id="node_external_text" class="node_text" x="1180" y="505">
+      <tspan x="1180" dy="0">④外部連携</tspan>
+    </text>
+  </g>
+</svg>

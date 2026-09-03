@@ -1,0 +1,192 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">01_2-1_データドリブンなまちづくりのビジョン</title>
+  <desc id="desc">
+    エリアデータ連携基盤を支える協業とデータ利活用を土台として、
+    地域の生活を守る、より良い生活をつくる、地域で稼ぐ力をつける、
+    という3つのビジョンを示した図。
+  </desc>
+  
+  <defs>
+    <style>
+      .text {
+        font-family: "Noto Sans JP", "Yu Gothic", "Hiragino Kaku Gothic ProN",
+          sans-serif;
+        fill: #0017b6;
+      }
+
+      .heading {
+        font-size: 28px;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+      }
+
+      .card-title {
+        font-size: 23px;
+        font-weight: 700;
+      }
+
+      .body {
+        font-size: 17px;
+        font-weight: 500;
+        fill: #26356f;
+      }
+
+      .foundation-title {
+        font-size: 25px;
+        font-weight: 700;
+      }
+
+      .foundation-card-title {
+        font-size: 22px;
+        font-weight: 700;
+      }
+
+      .primary-stroke {
+        stroke: #0017b6;
+      }
+
+      .connector {
+        fill: none;
+        stroke: #0017b6;
+        stroke-width: 5;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="7" stdDeviation="10" flood-color="#0017b6" flood-opacity="0.12"/>
+    </filter>
+
+    <marker id="arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="10" markerHeight="10" orient="auto-start-reverse">
+      <path d="M1 1 L11 6 L1 11 Z" fill="#0017b6"/>
+    </marker>
+
+    
+    <symbol id="icon-shield" viewBox="0 0 72 72">
+      <path d="M36 7C29 14 20 17 12 19v18c0 15 9 24 24 31 15-7 24-16 24-31V19C52 17 43 14 36 7Z" fill="#C0D7FB" stroke="#0017B6" stroke-width="4" stroke-linejoin="round"/>
+      <path d="M36 18v38c9-5 14-11 14-20V27c-5-1-10-4-14-9Z" fill="#0017B6"/>
+    </symbol>
+
+    
+    <symbol id="icon-sparkles" viewBox="0 0 72 72">
+      <path d="M36 4c2 14 8 20 22 22-14 2-20 8-22 22-2-14-8-20-22-22C28 24 34 18 36 4Z" fill="#0017B6"/>
+      <path d="M57 38c1.2 8 4.8 11.6 13 13-8.2 1.4-11.8 5-13 13-1.4-8-5-11.6-13-13 8-1.4 11.6-5 13-13Z" fill="#C0D7FB" stroke="#0017B6" stroke-width="2"/>
+      <path d="M17 46c.8 5.2 3.2 7.6 8.5 8.5C20.2 55.4 17.8 57.8 17 63c-.9-5.2-3.3-7.6-8.5-8.5C13.7 53.6 16.1 51.2 17 46Z" fill="#0017B6"/>
+    </symbol>
+
+    
+    <symbol id="icon-economy" viewBox="0 0 72 72">
+      <path d="M25 9h22l-3 10c9 6 15 16 15 28 0 13-9 20-23 20S13 60 13 47c0-12 6-22 15-28L25 9Z" fill="#C0D7FB" stroke="#0017B6" stroke-width="4" stroke-linejoin="round"/>
+      <path d="M24 9c7 4 17 4 24 0" fill="none" stroke="#0017B6" stroke-width="4" stroke-linecap="round"/>
+      <path d="M27 31l9 12 9-12M36 43v15M27 45h18M27 51h18" fill="none" stroke="#0017B6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+
+    
+    <symbol id="icon-collab" viewBox="0 0 80 72">
+      <path d="M8 25l14-11 14 8-12 17-16-14Z" fill="#C0D7FB" stroke="#0017B6" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M72 25L58 14l-14 8 12 17 16-14Z" fill="#C0D7FB" stroke="#0017B6" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M26 24l8-3 9 7 11-3 8 9-21 21c-3 3-8 3-11 0L18 43" fill="#F3EEE5" stroke="#0017B6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M30 48l7 7M37 42l8 8M44 36l8 7" fill="none" stroke="#0017B6" stroke-width="3" stroke-linecap="round"/>
+    </symbol>
+
+    
+    <symbol id="icon-data" viewBox="0 0 80 72">
+      <rect x="7" y="39" width="11" height="25" rx="2" fill="#C0D7FB"/>
+      <rect x="24" y="27" width="11" height="37" rx="2" fill="#0017B6"/>
+      <rect x="41" y="15" width="11" height="49" rx="2" fill="#C0D7FB"/>
+      <path d="M59 19a18 18 0 1 1-1 36V37h18" fill="#F3EEE5" stroke="#0017B6" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M59 19v18h17A18 18 0 0 0 59 19Z" fill="#0017B6"/>
+    </symbol>
+  </defs>
+
+  
+  <rect width="1200" height="900" fill="#FFFFFF"/>
+
+  
+  <rect x="45" y="38" width="1110" height="410" rx="26" fill="#FFFFFF" stroke="#0017B6" stroke-width="4"/>
+
+  <text x="600" y="90" text-anchor="middle" class="text heading">
+    データドリブンなまちづくりのビジョン（目指すべき姿）
+  </text>
+
+  
+  <g filter="url(#shadow)">
+    <rect x="78" y="125" width="318" height="280" rx="24" fill="#FFFFFF" stroke="#0017B6" stroke-width="3"/>
+    <rect x="441" y="125" width="318" height="280" rx="24" fill="#FFFFFF" stroke="#0017B6" stroke-width="3"/>
+    <rect x="804" y="125" width="318" height="280" rx="24" fill="#FFFFFF" stroke="#0017B6" stroke-width="3"/>
+  </g>
+
+  
+  <use href="#icon-shield" x="201" y="148" width="72" height="72"/>
+  <text x="237" y="254" text-anchor="middle" class="text card-title">
+    地域の生活を守る
+  </text>
+  <text x="237" y="296" text-anchor="middle" class="body">
+    <tspan x="237" dy="0">住民サービスや</tspan>
+    <tspan x="237" dy="29">生活インフラの</tspan>
+    <tspan x="237" dy="29">維持・確保</tspan>
+  </text>
+
+  
+  <use href="#icon-sparkles" x="564" y="148" width="72" height="72"/>
+  <text x="600" y="254" text-anchor="middle" class="text card-title">
+    より良い生活をつくる
+  </text>
+  <text x="600" y="311" text-anchor="middle" class="body">
+    <tspan x="600" dy="0">利便性向上・</tspan>
+    <tspan x="600" dy="29">新たな価値創出</tspan>
+  </text>
+
+  
+  <use href="#icon-economy" x="927" y="148" width="72" height="72"/>
+  <text x="963" y="254" text-anchor="middle" class="text card-title">
+    地域で稼ぐ力をつける
+  </text>
+  <text x="963" y="296" text-anchor="middle" class="body">
+    <tspan x="963" dy="0">地場産業活性化・</tspan>
+    <tspan x="963" dy="29">地域経済循環</tspan>
+  </text>
+
+  
+  <path d="M600 535 L600 472 L237 472 L237 426" class="connector" marker-end="url(#arrow)"/>
+  <path d="M600 535 L600 426" class="connector" marker-end="url(#arrow)"/>
+  <path d="M600 535 L600 472 L963 472 L963 426" class="connector" marker-end="url(#arrow)"/>
+
+  
+  <rect x="45" y="535" width="1110" height="325" rx="28" fill="#F8FBFF" stroke="#0017B6" stroke-width="4" stroke-dasharray="12 10"/>
+
+  
+  <circle cx="600" cy="535" r="41" fill="#0017B6" stroke="#FFFFFF" stroke-width="9"/>
+  <circle cx="600" cy="535" r="52" fill="none" stroke="#0017B6" stroke-width="3" stroke-dasharray="9 8"/>
+
+  <text x="600" y="624" text-anchor="middle" class="text foundation-title">
+    まちづくりを支える両輪（土台）
+  </text>
+
+  
+  <rect x="92" y="660" width="450" height="120" rx="22" fill="#F3EEE5" stroke="#0017B6" stroke-width="3"/>
+  <rect x="658" y="660" width="450" height="120" rx="22" fill="#C0D7FB" stroke="#0017B6" stroke-width="3"/>
+
+  
+  <path d="M542 722 H658" fill="none" stroke="#0017B6" stroke-width="5" stroke-linecap="round"/>
+
+  
+  
+  <text x="197" y="702" class="text foundation-card-title">
+    多様な主体との「協業」
+  </text>
+  <text x="217" y="741" class="body">
+    <tspan x="157" dy="0">行政・民間企業・NPO・住民の推進体制</tspan>
+  </text>
+
+  
+  
+  <text x="763" y="702" class="text foundation-card-title">
+    エリアデータの「利活用」
+  </text>
+  <text x="783" y="741" class="body">
+    <tspan x="733" dy="0">地域の様々なデータを分野横断でつなぐ</tspan>
+    
+  </text>
+</svg>

@@ -1,0 +1,409 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1600" viewBox="0 0 1400 1600" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTo1NDMwMGM3My1iMzliLTQzN2ItYjg0YS1iMWNmNjVhYWMxYjYAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaOGoL1vWj6GI7vcro/zUgccAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo5NGNkNDQ3ZS03NGNlLTQzNGUtYjdmMC1iYmYwYWY2NmFmNjNscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoyt6p5eojLuGMcc/8DjCeQgAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggDzPxGiNR1M1qODUch/QuT3R5cJB/kIA6Y5fVoAVHOdKkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaCp/9n/L9ZIYNvXb251FSEkAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCDr28RVp+kOUZi/TYM2SjMldQPUizqNy2M06tWCNGEpRmRuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBiaZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjU0MzAwYzczLWIzOWItNDM3Yi1iODRhLWIxY2Y2NWFhYzFiNi9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjQ0ZjZlYTI5LWJkOWYtNDg5MS04NTQyLTU5YmVlOWJlOGY4Y3JjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCAPM/EaI1HUzWo4NRyH9C5PdHlwkH+QgDpjl9WgBUc50qJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggtE0CB392zpfHmS0Q4avzmNhzwKyr27GZ/eH2yvPSDCaiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggawTDCkHB9Cbn4n8Hy5mjge+RfJgwAQKfj3yIr7KoBk10Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQKki2BS9dS0k0oABhMTQBHEcsVM+rg0DUby1aQHSvn3QcCVrd75ic8S4+ynvlSu8ag9igoGZ6oB/GsAFc0/EiOk=</c2pa:manifest></metadata>
+  <title id="diagramTitle">12_8-2_エリアデータ連携基盤の共同利用パターン検討フロー</title>
+  <desc id="diagramDescription">
+    既存のエリアデータ連携基盤の状況、利用者範囲、基盤統合方針から、
+    共同利用パターンと重要タスクを整理するフローチャート。
+  </desc>
+
+  <defs>
+    <style>
+      text {
+        font-family: "Noto Sans JP", sans-serif;
+        fill: #0017B6;
+      }
+
+      .whiteText {
+        fill: #FFFFFF;
+      }
+
+      .nodeTitle {
+        font-size: 21px;
+        font-weight: 700;
+      }
+
+      .nodeText {
+        font-size: 17px;
+        font-weight: 500;
+      }
+
+      .smallText {
+        font-size: 14px;
+        font-weight: 600;
+      }
+
+      .taskTitle {
+        font-size: 20px;
+        font-weight: 700;
+      }
+
+      .taskText {
+        font-size: 16px;
+        font-weight: 500;
+      }
+
+      .connector {
+        fill: none;
+        stroke: #0017B6;
+        stroke-width: 3;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        marker-end: url(#arrowMarker);
+      }
+
+      .card {
+        filter: url(#cardShadow);
+      }
+    </style>
+
+    <filter id="cardShadow" x="-15%" y="-15%" width="130%" height="140%">
+      <feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#0017B6" flood-opacity="0.13"/>
+    </filter>
+
+    <marker id="arrowMarker" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#0017B6"/>
+    </marker>
+
+    <linearGradient id="blueCardGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#C0D7FB"/>
+    </linearGradient>
+  </defs>
+
+  <rect id="background" x="0" y="0" width="1400" height="1600" fill="#FFFFFF" transform="matrix(1.12, 0, 0, 1.14, -124.27, -60.54)" />
+
+  
+  <g id="startNode" class="card">
+    <rect id="startNodeBackground" x="525" y="35" width="350" height="72" rx="36" fill="#0017B6"/>
+    <text id="startNodeLabel" class="nodeTitle whiteText" x="700" y="80" text-anchor="middle">
+      共同利用の検討開始
+    </text>
+  </g>
+
+  <path id="startToExisting" class="connector" d="M700 107 V155"/>
+
+  
+  <g id="existingQuestion" class="card">
+    <polygon id="existingQuestionShape" points="700,155 930,245 700,335 470,245" fill="#F3EEE5" stroke="#0017B6" stroke-width="3"/>
+    <text id="existingQuestionLabel" class="nodeTitle" x="700" y="235" text-anchor="middle">
+      <tspan x="700" dy="0">域内に既存の</tspan>
+      <tspan x="700" dy="29">データ連携基盤は？</tspan>
+    </text>
+  </g>
+
+  
+  <path id="existingToNone" class="connector" d="M475 245 H205 V385"/>
+  <path id="existingToSingle" class="connector" d="M700 335 V385"/>
+  <path id="existingToMultiple" class="connector" d="M928 245 H1180 V385"/>
+
+  
+  <g id="noneBranchLabel">
+    <rect id="noneBranchLabelBackground" x="260" y="228" width="90" height="36" rx="18" fill="#FFFFFF" stroke="#0017B6" stroke-width="2"/>
+    <text id="noneBranchLabelText" class="smallText" x="305" y="252" text-anchor="middle">
+      なし
+    </text>
+  </g>
+
+  <g id="singleBranchLabel">
+    <rect id="singleBranchLabelBackground" x="615" y="343" width="170" height="36" rx="18" fill="#FFFFFF" stroke="#0017B6" stroke-width="2"/>
+    <text id="singleBranchLabelText" class="smallText" x="700" y="367" text-anchor="middle">
+      1つだけ稼働中
+    </text>
+  </g>
+
+  <g id="multipleBranchLabel">
+    <rect id="multipleBranchLabelBackground" x="982" y="228" width="166" height="36" rx="18" fill="#FFFFFF" stroke="#0017B6" stroke-width="2"/>
+    <text id="multipleBranchLabelText" class="smallText" x="1065" y="252" text-anchor="middle">
+      複数乱立している
+    </text>
+  </g>
+
+  
+  <g id="modelOneOne" class="card">
+    <rect id="modelOneOneBackground" x="65" y="385" width="280" height="92" rx="18" fill="#FFFFFF" stroke="#0017B6" stroke-width="3"/>
+
+    <text id="modelOneOneTitle" class="nodeTitle" x="205" y="423" text-anchor="middle">
+      型 1.1
+    </text>
+    <text id="modelOneOneDescription" class="nodeText" x="205" y="454" text-anchor="middle">
+      （基盤なし）
+    </text>
+  </g>
+
+  <g id="modelOneTwo" class="card">
+    <rect id="modelOneTwoBackground" x="525" y="385" width="350" height="104" rx="18" fill="#FFFFFF" stroke="#0017B6" stroke-width="3"/>
+    <text id="modelOneTwoTitle" class="nodeTitle" x="700" y="422" text-anchor="middle">
+      型 1.2等
+    </text>
+    <text id="modelOneTwoDescription" class="nodeText" x="700" y="454" text-anchor="middle">
+      （単独運営・市区町村基盤）
+    </text>
+  </g>
+
+  <g id="multiplePlatforms" class="card">
+    <rect id="multiplePlatformsBackground" x="1015" y="385" width="330" height="92" rx="18" fill="#FFFFFF" stroke="#0017B6" stroke-width="3"/>
+    <text id="multiplePlatformsTitle" class="nodeTitle" x="1180" y="422" text-anchor="middle">
+      複数の個別基盤が
+    </text>
+    <text id="multiplePlatformsDescription" class="nodeText" x="1180" y="453" text-anchor="middle">
+      稼働中
+    </text>
+  </g>
+
+  
+  <path id="modelOneOneToPatternA" class="connector" d="M205 477 V575"/>
+
+  
+  <path id="modelOneTwoToScope" class="connector" d="M700 489 H710 V550"/>
+
+  
+  <path id="multiplePlatformsToMerge" class="connector" d="M1180 477 V520 H1120 V550"/>
+
+  
+  <g id="patternA" class="card">
+    <rect id="patternABackground" x="45" y="575" width="320" height="92" rx="20" fill="url(#blueCardGradient)" stroke="#0017B6" stroke-width="4"/>
+    <circle id="patternABadge" cx="90" cy="621" r="25" fill="#0017B6"/>
+    <text id="patternABadgeText" class="nodeTitle whiteText" x="90" y="629" text-anchor="middle">
+      A
+    </text>
+    <text id="patternATitle" class="nodeTitle" x="220" y="618" text-anchor="middle">
+      パターンA
+    </text>
+    <text id="patternADescription" class="nodeText" x="220" y="639" text-anchor="middle">
+      新規構築/
+    </text>
+        <text id="patternADescription" class="nodeText" x="220" y="658" text-anchor="middle">
+      近隣市区町村との共同利用
+    </text>
+  </g>
+  
+  <g id="scopeQuestion" class="card">
+    <polygon id="scopeQuestionShape" points="710,550 875,625 710,700 545,625" fill="#F3EEE5" stroke="#0017B6" stroke-width="3"/>
+    <text id="scopeQuestionLabel" class="nodeTitle" x="650" y="617" text-anchor="middle">
+      <tspan x="710" dy="0">利用者の範囲を</tspan>
+      <tspan x="710" dy="28">広げるか？</tspan>
+    </text>
+  </g>
+
+  
+  <g id="mergeQuestion" class="card">
+    <polygon id="mergeQuestionShape" points="1120,550 1280,625 1120,700 960,625" fill="#F3EEE5" stroke="#0017B6" stroke-width="3"/>
+    <text id="mergeQuestionLabel" class="nodeTitle" x="1120" y="617" text-anchor="middle">
+      <tspan x="1120" dy="0">基盤を1つに</tspan>
+      <tspan x="1120" dy="28">統合するか？</tspan>
+    </text>
+  </g>
+
+  
+  <path id="scopeToIndividual" class="connector" d="M550 625 375 625"/>
+  <path id="scopeToPatternB" class="connector" d="M710 700 V820"/>
+
+  <path id="patternAToTasks" class="connector" d="M205 667 V1230"/>
+  <g id="closedScopeLabel">
+    <rect id="closedScopeLabelBackground" x="343" y="655" width="110" height="50" rx="20" fill="#FFFFFF" stroke="#0017B6" stroke-width="2" transform="matrix(1, 0, 0, 1, 68.36, -55.93)" />
+    <text id="closedScopeLabelText" class="smallText" x="395" y="675" text-anchor="middle" transform="matrix(1, 0, 0, 1, 71.45, -59.02)">
+      市区町村内に
+    </text>
+        <text id="closedScopeLabelText" class="smallText" x="395" y="695" text-anchor="middle" transform="matrix(1, 0, 0, 1, 71.45, -59.02)">
+      閉じる
+    </text>
+  </g>
+
+  <g id="expandedScopeLabel">
+    <rect id="expandedScopeLabelBackground" x="650" y="730" width="120" height="40" rx="20" fill="#FFFFFF" stroke="#0017B6" stroke-width="2"/>
+    <text id="expandedScopeLabelText" class="smallText" x="710" y="756" text-anchor="middle">
+      広域へ拡大
+    </text>
+  </g>
+
+  
+  <path id="mergeToPatternC" class="connector" d="M960 624 V790 H1150 V820"/>
+  <path id="mergeToInterconnect" class="connector" d="M1275 625 H1380 V1020 H1270 V1080"/>
+
+  
+  <g id="physicalMergeLabel">
+    <rect id="physicalMergeLabelBackground" x="885" y="710" width="215" height="58" rx="20" fill="#FFFFFF" stroke="#0017B6" stroke-width="2"/>
+    <text id="physicalMergeLabelText" class="smallText" x="992" y="733" text-anchor="middle">
+      <tspan x="992" dy="0">物理統合・</tspan>
+      <tspan x="992" dy="20">認証整合あり</tspan>
+    </text>
+  </g>
+
+  <g id="noMergeLabel">
+    <rect id="noMergeLabelBackground" x="1230" y="720" width="165" height="58" rx="20" fill="#FFFFFF" stroke="#0017B6" stroke-width="2"/>
+    <text id="noMergeLabelText" class="smallText" x="1272" y="743" text-anchor="middle">
+      <tspan x="1312" dy="0">統合せず</tspan>
+      <tspan x="1312" dy="20">基盤間をつなぐ</tspan>
+    </text>
+  </g>
+  <g id="patternBD" class="card">
+    <rect id="patternBDBackground" x="540" y="820" width="360" height="136" rx="20" fill="url(#blueCardGradient)" stroke="#0017B6" stroke-width="4"/>
+    <circle id="patternBDBadge" cx="584" cy="866" r="24" fill="#0017B6"/>
+    <text id="patternBDBadgeText" class="nodeTitle whiteText" x="584" y="874" text-anchor="middle">
+      B
+    </text>
+    <text id="patternBDTitle" class="nodeTitle" x="735" y="860" text-anchor="middle">
+      パターンB（広域展開）
+    </text>
+    <line id="patternBDDivider" x1="580" y1="886" x2="860" y2="886" stroke="#C0D7FB" stroke-width="2"/>
+    <text id="patternBDDescription" class="nodeText" x="720" y="921" text-anchor="middle">
+      または パターンD（上位合流）
+    </text>
+  </g>
+
+  
+  <g id="patternC" class="card">
+    <rect id="patternCBackground" x="940" y="820" width="420" height="154" rx="20" fill="url(#blueCardGradient)" stroke="#0017B6" stroke-width="4"/>
+    <circle id="patternCBadge" cx="985" cy="868" r="24" fill="#0017B6"/>
+    <text id="patternCBadgeText" class="nodeTitle whiteText" x="985" y="876" text-anchor="middle">
+      C
+    </text>
+    <text id="patternCTitle" class="nodeTitle" x="1150" y="858" text-anchor="middle">
+      パターンC
+    </text>
+    <text id="patternCDescription" class="nodeText" x="1150" y="895" text-anchor="middle">
+      複数基盤の高度統合 → 型 2.8
+    </text>
+    <text id="patternCFutureText" class="smallText" x="1150" y="928" text-anchor="middle">
+      <tspan x="1150" dy="0">（将来的な基盤統合により</tspan>
+      <tspan x="1150" dy="22">型2.4へ収斂）</tspan>
+    </text>
+  </g>
+
+  
+
+  <path id="patternBDToTasks" class="connector" d="M720 956 V1230"/>
+  <path id="patternCToTasks" class="connector" d="M1150 974 V1230"/>
+
+  
+  <g id="platformInterconnection" class="card">
+    <rect id="platformInterconnectionBackground" x="1060" y="1080" width="310" height="106" rx="20" fill="#FFFFFF" stroke="#0017B6" stroke-width="3" stroke-dasharray="10 7"/>
+    <circle id="platformInterconnectionIconBackground" cx="1110" cy="1133" r="23" fill="#C0D7FB" stroke="#0017B6" stroke-width="2"/>
+    <path id="platformInterconnectionCheck" d="M1099 1133 L1107 1141 L1122 1124" fill="none" stroke="#0017B6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text id="platformInterconnectionTitle" class="nodeTitle" x="1240" y="1128" text-anchor="middle">
+      基盤間連携
+    </text>
+    <text id="platformInterconnectionDescription" class="nodeText" x="1240" y="1160" text-anchor="middle">
+      （認証・データ連携）
+    </text>
+  </g>
+
+  
+  <g id="taskSectionTitle">
+    <line id="taskSectionLeftLine" x1="55" y1="1203" x2="485" y2="1203" stroke="#C0D7FB" stroke-width="3"/>
+    <rect id="taskSectionTitleBackground" x="485" y="1178" width="430" height="50" rx="25" fill="#0017B6"/>
+    <text id="taskSectionTitleText" class="nodeTitle whiteText" x="700" y="1211" text-anchor="middle">
+      選択パターン別の重要タスク
+    </text>
+    <line id="taskSectionRightLine" x1="915" y1="1203" x2="1345" y2="1203" stroke="#C0D7FB" stroke-width="3"/>
+  </g>
+
+  
+  <g id="tasksA" class="card">
+    <rect id="tasksABackground" x="45" y="1230" width="400" height="310" rx="24" fill="#FFFFFF" stroke="#0017B6" stroke-width="3"/>
+    <rect id="tasksAHeader" x="45" y="1230" width="400" height="74" rx="24" fill="#C0D7FB"/>
+    <rect id="tasksAHeaderFill" x="45" y="1280" width="400" height="24" fill="#C0D7FB"/>
+    <circle id="tasksABadge" cx="91" cy="1267" r="24" fill="#0017B6"/>
+    <text id="tasksABadgeText" class="nodeTitle whiteText" x="91" y="1275" text-anchor="middle">
+      A
+    </text>
+    <text id="tasksATitle" class="taskTitle" x="250" y="1260" text-anchor="middle">
+      パターンA
+    </text>
+    <text id="tasksASubtitle" class="smallText" x="250" y="1287" text-anchor="middle">
+      新設時の重要タスク
+    </text>
+
+    <circle id="tasksABulletOne" cx="78" cy="1340" r="6" fill="#0017B6"/>
+    <text id="tasksAItemOne" class="taskText" x="98" y="1346">
+      <tspan x="98" dy="0">地域課題の分析と</tspan>
+      <tspan x="98" dy="25">サービス企画</tspan>
+    </text>
+
+    <circle id="tasksABulletTwo" cx="78" cy="1410" r="6" fill="#0017B6"/>
+    <text id="tasksAItemTwo" class="taskText" x="98" y="1416">
+      <tspan x="98" dy="0">パーソナルデータ管理の</tspan>
+      <tspan x="98" dy="25">論理分離設計</tspan>
+    </text>
+
+    <circle id="tasksABulletThree" cx="78" cy="1480" r="6" fill="#0017B6"/>
+    <text id="tasksAItemThree" class="taskText" x="98" y="1486">
+      <tspan x="98" dy="0">参加自治体間での</tspan>
+      <tspan x="98" dy="25">コスト負担割合の決定</tspan>
+    </text>
+  </g>
+
+  
+  <g id="tasksBD" class="card">
+    <rect id="tasksBDBackground" x="500" y="1230" width="400" height="310" rx="24" fill="#FFFFFF" stroke="#0017B6" stroke-width="3"/>
+    <rect id="tasksBDHeader" x="500" y="1230" width="400" height="74" rx="24" fill="#C0D7FB"/>
+    <rect id="tasksBDHeaderFill" x="500" y="1280" width="400" height="24" fill="#C0D7FB"/>
+    <circle id="tasksBDBadge" cx="546" cy="1267" r="24" fill="#0017B6"/>
+    <text id="tasksBDBadgeText" class="smallText whiteText" x="546" y="1273" text-anchor="middle">
+      B/D
+    </text>
+    <text id="tasksBDTitle" class="taskTitle" x="705" y="1260" text-anchor="middle">
+      パターンB／D
+    </text>
+    <text id="tasksBDSubtitle" class="smallText" x="705" y="1287" text-anchor="middle">
+      広域化・合流の重要タスク
+    </text>
+
+    <circle id="tasksBDBulletOne" cx="533" cy="1340" r="6" fill="#0017B6"/>
+    <text id="tasksBDItemOne" class="taskText" x="553" y="1346">
+      <tspan x="553" dy="0">サービス範囲の</tspan>
+      <tspan x="553" dy="25">都道府県下への拡大</tspan>
+    </text>
+
+    <circle id="tasksBDBulletTwo" cx="533" cy="1410" r="6" fill="#0017B6"/>
+    <text id="tasksBDItemTwo" class="taskText" x="553" y="1416">
+      <tspan x="553" dy="0">利用規約の都道府県</tspan>
+      <tspan x="553" dy="25">レベルでの共通化</tspan>
+    </text>
+
+    <circle id="tasksBDBulletThree" cx="533" cy="1480" r="6" fill="#0017B6"/>
+    <text id="tasksBDItemThree" class="taskText" x="553" y="1486">
+      <tspan x="553" dy="0">基盤間IDマッピング</tspan>
+      <tspan x="553" dy="25">（名寄せ）処理の実装</tspan>
+    </text>
+  </g>
+
+  
+  <g id="tasksC" class="card">
+    <rect id="tasksCBackground" x="955" y="1230" width="400" height="310" rx="24" fill="#FFFFFF" stroke="#0017B6" stroke-width="3"/>
+    <rect id="tasksCHeader" x="955" y="1230" width="400" height="74" rx="24" fill="#C0D7FB"/>
+    <rect id="tasksCHeaderFill" x="955" y="1280" width="400" height="24" fill="#C0D7FB"/>
+    <circle id="tasksCBadge" cx="1001" cy="1267" r="24" fill="#0017B6"/>
+    <text id="tasksCBadgeText" class="nodeTitle whiteText" x="1001" y="1275" text-anchor="middle">
+      C
+    </text>
+    <text id="tasksCTitle" class="taskTitle" x="1160" y="1260" text-anchor="middle">
+      パターンC
+    </text>
+    <text id="tasksCSubtitle" class="smallText" x="1160" y="1287" text-anchor="middle">
+      高度統合の重要タスク
+    </text>
+
+    <circle id="tasksCBulletOne" cx="988" cy="1340" r="6" fill="#0017B6"/>
+    <text id="tasksCItemOne" class="taskText" x="1008" y="1346">
+      <tspan x="1008" dy="0">マルチテナント</tspan>
+      <tspan x="1008" dy="25">（部屋分け）構造の構築</tspan>
+    </text>
+
+    <circle id="tasksCBulletTwo" cx="988" cy="1410" r="6" fill="#0017B6"/>
+    <text id="tasksCItemTwo" class="taskText" x="1008" y="1416">
+      <tspan x="1008" dy="0">異なる基盤間の</tspan>
+      <tspan x="1008" dy="25">ID突合自動化</tspan>
+    </text>
+
+    <circle id="tasksCBulletThree" cx="988" cy="1480" r="6" fill="#0017B6"/>
+    <text id="tasksCItemThree" class="taskText" x="1008" y="1486">
+      <tspan x="1008" dy="0">サービス間連携における</tspan>
+      <tspan x="1008" dy="24">認証・認可レベルの自動整合チェック</tspan>
+    </text>
+  </g>
+
+  <line id="footerDivider" x1="55" y1="1565" x2="1345" y2="1565" stroke="#C0D7FB" stroke-width="2"/>
+  <text id="footerNote" class="smallText" x="700" y="1590" text-anchor="middle">
+    実線は検討の進行、破線枠は基盤を統合しない連携方針を示す
+  </text>
+</svg>

@@ -1,0 +1,208 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="360" viewBox="0 0 1400 360" role="img" aria-labelledby="diagram_title diagram_desc">
+  <title id="diagram_title">33_14-2_妊娠から保育園入園までの利用者接点</title>
+  <desc id="diagram_desc">
+    妊娠、母子手帳交付、出生届の提出、乳幼児健診、保育園入園までの流れを示す図。
+    出生届の提出と乳幼児健診を重要タッチポイントとして強調している。
+  </desc>
+
+  <defs>
+    <style>
+      .diagram-bg {
+        fill: #FFFFFF;
+      }
+
+      .timeline-line {
+        fill: none;
+        stroke: #0017B6;
+        stroke-width: 4;
+        stroke-linecap: round;
+      }
+
+      .normal-card {
+        fill: #FFFFFF;
+        stroke: #C0D7FB;
+        stroke-width: 2;
+      }
+
+      .touch-card {
+        fill: #F3EEE5;
+        stroke: #0017B6;
+        stroke-width: 3;
+      }
+
+      .normal-icon {
+        fill: #C0D7FB;
+        stroke: #0017B6;
+        stroke-width: 2;
+      }
+
+      .touch-icon {
+        fill: #0017B6;
+        stroke: #0017B6;
+        stroke-width: 2;
+      }
+
+      .step-number-normal {
+        fill: #0017B6;
+        font-family: "Noto Sans JP", sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        text-anchor: middle;
+        dominant-baseline: middle;
+      }
+
+      .step-number-touch {
+        fill: #FFFFFF;
+        font-family: "Noto Sans JP", sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        text-anchor: middle;
+        dominant-baseline: middle;
+      }
+
+      .card-title {
+        fill: #0017B6;
+        font-family: "Noto Sans JP", sans-serif;
+        font-size: 21px;
+        font-weight: 700;
+        text-anchor: middle;
+      }
+
+      .card-body {
+        fill: #26304A;
+        font-family: "Noto Sans JP", sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        text-anchor: middle;
+      }
+
+      .touch-label {
+        fill: #FFFFFF;
+        font-family: "Noto Sans JP", sans-serif;
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+        text-anchor: middle;
+      }
+
+      .legend-text {
+        fill: #26304A;
+        font-family: "Noto Sans JP", sans-serif;
+        font-size: 13px;
+        font-weight: 500;
+      }
+
+      .arrow-shape {
+        fill: #0017B6;
+      }
+    </style>
+
+    <filter id="card_shadow" x="-15%" y="-15%" width="130%" height="140%">
+      <feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#0017B6" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <rect id="background" class="diagram-bg" x="0" y="0" width="1400" height="360"/>
+
+  <g id="timeline_group">
+    <line id="timeline_base" class="timeline-line" x1="150" y1="58" x2="1250" y2="58"/>
+
+    <polygon id="arrow_one" class="arrow-shape" points="310,49 326,58 310,67"/>
+    <polygon id="arrow_two" class="arrow-shape" points="565,49 581,58 565,67"/>
+    <polygon id="arrow_three" class="arrow-shape" points="820,49 836,58 820,67"/>
+    <polygon id="arrow_four" class="arrow-shape" points="1075,49 1091,58 1075,67"/>
+  </g>
+
+  <g id="pregnancy_step">
+    <circle id="pregnancy_number_circle" class="normal-icon" cx="150" cy="58" r="25"/>
+    <text id="pregnancy_number" class="step-number-normal" x="150" y="59">1</text>
+
+    <rect id="pregnancy_card" class="normal-card" x="38" y="106" width="224" height="170" rx="18" filter="url(#card_shadow)"/>
+
+    <text id="pregnancy_title" class="card-title" x="150" y="152">妊娠</text>
+
+    <line id="pregnancy_divider" x1="76" y1="172" x2="224" y2="172" stroke="#C0D7FB" stroke-width="2"/>
+
+    <text id="pregnancy_body" class="card-body" x="150" y="211">
+      <tspan x="150" dy="0">医療機関の受診</tspan>
+    </text>
+  </g>
+
+  <g id="handbook_step">
+    <circle id="handbook_number_circle" class="normal-icon" cx="405" cy="58" r="25"/>
+    <text id="handbook_number" class="step-number-normal" x="405" y="59">2</text>
+
+    <rect id="handbook_card" class="normal-card" x="293" y="106" width="224" height="170" rx="18" filter="url(#card_shadow)"/>
+
+    <text id="handbook_title" class="card-title" x="405" y="152">母子手帳交付</text>
+
+    <line id="handbook_divider" x1="331" y1="172" x2="479" y2="172" stroke="#C0D7FB" stroke-width="2"/>
+
+    <text id="handbook_body" class="card-body" x="405" y="206">
+      <tspan x="405" dy="0">自治体窓口での</tspan>
+      <tspan x="405" dy="25">対面案内</tspan>
+    </text>
+  </g>
+
+  <g id="birth_step">
+    <circle id="birth_number_circle" class="touch-icon" cx="660" cy="58" r="28"/>
+    <text id="birth_number" class="step-number-touch" x="660" y="59">3</text>
+
+    <rect id="birth_card" class="touch-card" x="548" y="94" width="224" height="194" rx="18" filter="url(#card_shadow)"/>
+
+    <rect id="birth_label_bg" x="584" y="108" width="152" height="28" rx="14" fill="#0017B6"/>
+    <text id="birth_label" class="touch-label" x="660" y="127">重要タッチポイント</text>
+
+    <text id="birth_title" class="card-title" x="660" y="170">出生届の提出</text>
+
+    <line id="birth_divider" x1="586" y1="188" x2="734" y2="188" stroke="#C0D7FB" stroke-width="2"/>
+
+    <text id="birth_body" class="card-body" x="660" y="226">
+      <tspan x="660" dy="0">アプリ登録</tspan>
+      <tspan x="660" dy="25">サポート</tspan>
+    </text>
+  </g>
+
+  <g id="checkup_step">
+    <circle id="checkup_number_circle" class="touch-icon" cx="915" cy="58" r="28"/>
+    <text id="checkup_number" class="step-number-touch" x="915" y="59">4</text>
+
+    <rect id="checkup_card" class="touch-card" x="803" y="94" width="224" height="194" rx="18" filter="url(#card_shadow)"/>
+
+    <rect id="checkup_label_bg" x="839" y="108" width="152" height="28" rx="14" fill="#0017B6"/>
+    <text id="checkup_label" class="touch-label" x="915" y="127">重要タッチポイント</text>
+
+    <text id="checkup_title" class="card-title" x="915" y="170">乳幼児健診</text>
+
+    <line id="checkup_divider" x1="841" y1="188" x2="989" y2="188" stroke="#C0D7FB" stroke-width="2"/>
+
+    <text id="checkup_body" class="card-body" x="915" y="226">
+      <tspan x="915" dy="0">健康データの</tspan>
+      <tspan x="915" dy="25">連携案内</tspan>
+    </text>
+  </g>
+
+  <g id="nursery_step">
+    <circle id="nursery_number_circle" class="normal-icon" cx="1170" cy="58" r="25"/>
+    <text id="nursery_number" class="step-number-normal" x="1170" y="59">5</text>
+
+    <rect id="nursery_card" class="normal-card" x="1058" y="106" width="304" height="170" rx="18" filter="url(#card_shadow)"/>
+
+    <text id="nursery_title" class="card-title" x="1210" y="152">保育園入園</text>
+
+    <line id="nursery_divider" x1="1100" y1="172" x2="1320" y2="172" stroke="#C0D7FB" stroke-width="2"/>
+
+    <text id="nursery_body" class="card-body" x="1210" y="206">
+      <tspan x="1210" dy="0">保育・行政サービスの</tspan>
+      <tspan x="1210" dy="25">日常利用開始</tspan>
+    </text>
+  </g>
+
+  <g id="legend_group">
+    <rect id="legend_touch_sample" x="476" y="326" width="22" height="12" rx="3" fill="#F3EEE5" stroke="#0017B6" stroke-width="2"/>
+    <text id="legend_touch_text" class="legend-text" x="510" y="337">重要タッチポイント</text>
+
+    <rect id="legend_normal_sample" x="716" y="326" width="22" height="12" rx="3" fill="#FFFFFF" stroke="#C0D7FB" stroke-width="2"/>
+    <text id="legend_normal_text" class="legend-text" x="750" y="337">通常の利用者接点</text>
+  </g>
+</svg>

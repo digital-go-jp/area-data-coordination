@@ -1,0 +1,337 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">02_2-2_分断された行政サービスとエリアデータ連携基盤</title>
+  <desc id="desc">
+    住民にとって煩雑な手続きと、サービスごとに分断されたID・データを表した概念図
+  </desc>
+
+  <defs>
+    <style>
+      .text {
+        font-family: "Noto Sans JP", sans-serif;
+        fill: #141928;
+      }
+
+      .accent-text {
+        font-family: "Noto Sans JP", sans-serif;
+        fill: #0017B6;
+      }
+
+      .line {
+        fill: none;
+        stroke: #1B243B;
+        stroke-width: 4;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .thin {
+        fill: none;
+        stroke: #1B243B;
+        stroke-width: 3;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .accent-line {
+        fill: none;
+        stroke: #0017B6;
+        stroke-width: 4;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .icon-line {
+        fill: none;
+        stroke: #0017B6;
+        stroke-width: 2.8;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .card {
+        fill: #0017B6;
+        fill-opacity: 0.09;
+        stroke: #0017B6;
+        stroke-opacity: 0.2;
+        stroke-width: 2;
+      }
+    </style>
+
+    <marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#1B243B"/>
+    </marker>
+
+    <marker id="arrowAccent" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#0017B6"/>
+    </marker>
+
+    <linearGradient id="hubGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#273B70"/>
+      <stop offset="1" stop-color="#0017B6"/>
+    </linearGradient>
+
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      
+    </filter>
+  </defs>
+
+  
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+
+  
+  <text class="text" x="580" y="120" font-size="25" font-weight="500">
+    各サービスが独自のIDとデータを保有
+  </text>
+
+  
+  
+  <g transform="translate(80 214)">
+    
+    <path class="thin" d="M7 34 C10 22 19 14 31 10"/>
+    <path class="thin" d="M17 45 C20 35 25 29 35 24"/>
+    <path class="thin" d="M98 18 L104 4"/>
+    <path class="thin" d="M112 28 L124 21"/>
+    <path class="thin" d="M114 43 L129 45"/>
+
+    
+    <path class="line" d="M42 70         C42 45 58 29 82 29         C105 29 121 47 121 70         C121 89 107 109 82 109         C58 109 42 90 42 70         Z"/>
+
+    <path class="thin" d="M46 60 C56 57 63 50 68 40"/>
+    <path class="thin" d="M68 40 C81 53 97 56 116 55"/>
+
+    <circle cx="65" cy="70" r="2.6" fill="#1B243B"/>
+    <circle cx="99" cy="70" r="2.6" fill="#1B243B"/>
+
+    <path class="thin" d="M75 90 C82 85 89 85 96 90"/>
+
+    
+    <path class="line" d="M47 112 C25 121 16 139 14 174"/>
+    <path class="line" d="M117 112 C139 121 148 139 150 174"/>
+    <path class="line" d="M47 112 C59 124 105 124 117 112"/>
+    <path class="line" d="M43 174 L43 145"/>
+    <path class="line" d="M121 174 L121 145"/>
+  </g>
+
+  
+  <g aria-label="サービスごとに分断されたIDと煩雑な手続き">
+    
+    <path class="line" d="M226 290 C252 277 272 267 294 256"/>
+    <path class="line" d="M225 318 C252 314 271 309 292 303"/>
+    <path class="line" d="M227 347 C252 350 271 354 292 359"/>
+
+    
+    <path class="line" d="M276 282         C304 240 348 213 389 226         C434 240 452 288 431 329         C409 373 351 392 308 367         C266 343 261 292 291 258         C321 223 374 221 409 251         C448 285 442 341 408 374         C371 409 313 404 283 367         C253 331 266 285 304 264         C345 240 397 257 419 296         C442 338 417 388 374 407         C330 427 280 405 265 365         C249 323 273 278 316 264"/>
+
+    <path class="line" d="M282 308         C322 281 368 277 405 297         C443 317 451 362 427 394         C401 430 350 438 311 414         C273 391 261 348 284 316         C307 283 354 273 391 292         C430 312 441 357 418 390         C393 424 343 430 306 407"/>
+
+    <path class="line" d="M286 341         C320 314 365 306 401 324         C438 342 449 384 427 415         C403 448 354 456 317 434         C280 412 267 372 288 341         C309 310 350 300 386 313"/>
+
+    <path class="line" d="M299 376         C330 352 374 347 407 366         C440 385 446 425 421 451         C394 479 346 479 314 452         C284 427 281 398 299 376"/>
+
+    
+    <path class="line" d="M319 251         C360 225 403 218 435 220         C449 221 459 212 468 199"/>
+
+    <path class="line" d="M286 301         C335 282 386 276 426 281         C444 283 456 278 468 274"/>
+
+    <path class="line" d="M287 354         C335 348 384 347 425 350         C443 351 456 351 468 351"/>
+
+    <path class="line" d="M306 407         C348 413 388 423 424 430         C443 434 456 431 468 429"/>
+  </g>
+
+  
+  <g aria-label="サービスごとの個別ID">
+    <g transform="translate(470 199)">
+      <circle cx="0" cy="0" r="9" fill="#8396F0" stroke="#0017B6" stroke-width="3"/>
+      <circle cx="-2.5" cy="-2.5" r="2.2" fill="#FFFFFF"/>
+
+      <path class="accent-line" d="M10 0 H46" marker-end="url(#arrowAccent)"/>
+    </g>
+
+    <g transform="translate(470 274)">
+      <circle cx="0" cy="0" r="9" fill="#8396F0" stroke="#0017B6" stroke-width="3"/>
+      <circle cx="-2.5" cy="-2.5" r="2.2" fill="#FFFFFF"/>
+
+      <path class="accent-line" d="M10 0 H46" marker-end="url(#arrowAccent)"/>
+    </g>
+
+    <g transform="translate(470 351)">
+      <circle cx="0" cy="0" r="9" fill="#8396F0" stroke="#0017B6" stroke-width="3"/>
+      <circle cx="-2.5" cy="-2.5" r="2.2" fill="#FFFFFF"/>
+
+      <path class="accent-line" d="M10 0 H46" marker-end="url(#arrowAccent)"/>
+    </g>
+
+    <g transform="translate(470 429)">
+      <circle cx="0" cy="0" r="9" fill="#8396F0" stroke="#0017B6" stroke-width="3"/>
+      <circle cx="-2.5" cy="-2.5" r="2.2" fill="#FFFFFF"/>
+
+      <path class="accent-line" d="M10 0 H46" marker-end="url(#arrowAccent)"/>
+    </g>
+  </g>
+
+  
+  <g>
+    
+    <g transform="translate(540 150)">
+      <rect class="card" width="102" height="274" rx="12"/>
+
+      <text class="accent-text" x="51" y="34" text-anchor="middle" font-size="22" font-weight="700">
+        子育て
+      </text>
+
+      <g transform="translate(29 48)">
+        <circle class="icon-line" cx="22" cy="22" r="18"/>
+        <path class="icon-line" d="M7 22 C12 13 18 10 22 10 C27 10 33 13 38 22"/>
+        <circle cx="16" cy="23" r="2" fill="#0017B6"/>
+        <circle cx="28" cy="23" r="2" fill="#0017B6"/>
+        <path class="icon-line" d="M17 31 C20 34 24 34 27 31"/>
+        <path class="icon-line" d="M11 39 L15 57 L22 67 L29 57 L33 39"/>
+      </g>
+
+      <g transform="translate(30 190)">
+        <path class="icon-line" d="M0 0 H27 L38 11 V42 H0 Z"/>
+        <path class="icon-line" d="M27 0 V11 H38"/>
+        <path class="icon-line" d="M8 17 H27 M8 24 H25 M8 31 H21"/>
+        <circle class="icon-line" cx="35" cy="34" r="10"/>
+        <path class="icon-line" d="M35 27 V31 M35 37 V41 M28 34 H32 M38 34 H42"/>
+      </g>
+
+      <text class="accent-text" x="51" y="256" text-anchor="middle" font-size="15" font-weight="700">
+        データアセット
+      </text>
+    </g>
+
+    
+    <g transform="translate(670 150)">
+      <rect class="card" width="102" height="274" rx="12"/>
+
+      <text class="accent-text" x="51" y="34" text-anchor="middle" font-size="21" font-weight="700">
+        税・手続き
+      </text>
+
+      <g transform="translate(25 51)">
+        <path class="icon-line" d="M5 48 H47"/>
+        <path class="icon-line" d="M10 48 V24 H42 V48"/>
+        <path class="icon-line" d="M6 24 L26 12 L46 24 Z"/>
+        <path class="icon-line" d="M15 29 V43 M25 29 V43 M35 29 V43"/>
+        <rect class="icon-line" x="22" y="2" width="8" height="8" rx="1"/>
+      </g>
+
+      <g transform="translate(30 190)">
+        <path class="icon-line" d="M0 0 H27 L38 11 V42 H0 Z"/>
+        <path class="icon-line" d="M27 0 V11 H38"/>
+        <path class="icon-line" d="M8 17 H27 M8 24 H25 M8 31 H21"/>
+        <circle class="icon-line" cx="35" cy="34" r="10"/>
+        <path class="icon-line" d="M35 27 V31 M35 37 V41 M28 34 H32 M38 34 H42"/>
+      </g>
+
+      <text class="accent-text" x="51" y="256" text-anchor="middle" font-size="15" font-weight="700">
+        データアセット
+      </text>
+    </g>
+
+    
+    <g transform="translate(800 150)">
+      <rect class="card" width="102" height="274" rx="12"/>
+
+      <text class="accent-text" x="51" y="34" text-anchor="middle" font-size="21" font-weight="700">
+        図書館
+      </text>
+
+      <g transform="translate(18 54)">
+        <path class="icon-line" d="M6 4 C20 3 28 8 33 15 V50 C24 43 16 41 6 43 Z"/>
+        <path class="icon-line" d="M60 4 C46 3 38 8 33 15 V50 C42 43 50 41 60 43 Z"/>
+        <path class="icon-line" d="M0 10 H6 M60 10 H66 V48 H39"/>
+        <path class="icon-line" d="M0 10 V48 H27"/>
+      </g>
+
+      <g transform="translate(27 191)">
+        <ellipse class="icon-line" cx="24" cy="6" rx="18" ry="6"/>
+        <path class="icon-line" d="M6 6             V40             C6 44 14 47 24 47             C34 47 42 44 42 40             V6"/>
+        <path class="icon-line" d="M6 23             C6 27 14 30 24 30             C34 30 42 27 42 23"/>
+      </g>
+
+      <text class="accent-text" x="51" y="256" text-anchor="middle" font-size="15" font-weight="700">
+        データ
+      </text>
+    </g>
+
+    
+    <g transform="translate(930 150)">
+      <rect class="card" width="102" height="274" rx="12"/>
+
+      <text class="accent-text" x="51" y="34" text-anchor="middle" font-size="22" font-weight="700">
+        交通
+      </text>
+
+      <g transform="translate(27 49)">
+        <rect class="icon-line" x="4" y="4" width="42" height="45" rx="8"/>
+        <rect class="icon-line" x="10" y="10" width="30" height="19" rx="2"/>
+        <path class="icon-line" d="M10 37 H40"/>
+        <circle class="icon-line" cx="13" cy="44" r="3"/>
+        <circle class="icon-line" cx="37" cy="44" r="3"/>
+        <path class="icon-line" d="M13 49 V55 M37 49 V55 M10 55 H16 M34 55 H40"/>
+      </g>
+
+      <g transform="translate(29 119)">
+        <ellipse class="icon-line" cx="22" cy="6" rx="17" ry="6"/>
+        <path class="icon-line" d="M5 6             V40             C5 44 12 47 22 47             C32 47 39 44 39 40             V6"/>
+        <path class="icon-line" d="M5 23             C5 27 12 30 22 30             C32 30 39 27 39 23"/>
+      </g>
+
+      <text class="accent-text" x="51" y="180" text-anchor="middle" font-size="15" font-weight="700">
+        データ
+      </text>
+
+      <g transform="translate(30 190)">
+        <path class="icon-line" d="M0 0 H27 L38 11 V42 H0 Z"/>
+        <path class="icon-line" d="M27 0 V11 H38"/>
+        <path class="icon-line" d="M8 17 H27 M8 24 H25 M8 31 H21"/>
+        <circle class="icon-line" cx="35" cy="34" r="10"/>
+        <path class="icon-line" d="M35 27 V31 M35 37 V41 M28 34 H32 M38 34 H42"/>
+      </g>
+
+      <text class="accent-text" x="51" y="256" text-anchor="middle" font-size="15" font-weight="700">
+        データアセット
+      </text>
+    </g>
+  </g>
+  
+  <path class="line" d="M590 438 C680 505 785 503 891 443" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+
+  <path class="line" d="M610 446 C744 535 892 516 978 444" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+
+  <path class="line" d="M700 435 C790 530 880 530 970 435" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+
+  
+  <path class="line" d="M1070 309 L1012 286" marker-end="url(#arrow)"/>
+
+  <path class="line" d="M1070 309 L1014 360" marker-end="url(#arrow)"/>
+
+  <text class="text" x="1078" y="274" font-size="24" font-weight="500">
+    <tspan x="1078" dy="0">データアセット</tspan>
+    <tspan x="1078" dy="29">(公開情報など)も</tspan>
+    <tspan x="1078" dy="29">個別に紐付けられ</tspan>
+    <tspan x="1078" dy="29">非効率</tspan>
+  </text>
+
+  
+  <path class="line" d="M218 489 L271 431" marker-end="url(#arrow)"/>
+
+  <text class="text" x="105" y="520" font-size="24" font-weight="500">
+    <tspan x="105" dy="0">住民にとっては、</tspan>
+    <tspan x="105" dy="30">手続きが煩雑で一貫性がない</tspan>
+  </text>
+
+  
+  <path class="line" d="M730 566 L671 516" marker-end="url(#arrow)"/>
+
+  <text class="text" x="738" y="558" font-size="23" font-weight="500">
+    <tspan x="738" dy="0">
+      行政にとっては、データが連携できず、
+    </tspan>
+    <tspan x="738" dy="30">
+      横断的な施策が打ちにくい
+    </tspan>
+  </text>
+</svg>
