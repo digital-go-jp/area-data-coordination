@@ -36,7 +36,7 @@
 
 ## ライセンス
 
-本リポジトリはPDLライセンスの下で公開されています。
+本リポジトリは[PDL](https://www.digital.go.jp/resources/open_data/public_data_license_v1.0)ライセンスの下で公開されています。
 
 ## 変更履歴
 
