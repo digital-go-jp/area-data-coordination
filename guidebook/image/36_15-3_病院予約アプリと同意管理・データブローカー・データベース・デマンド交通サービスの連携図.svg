@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="920" viewBox="0 0 1600 920" role="img" aria-labelledby="svgTitle svgDesc">
-  <title id="svgTitle">37_15-②_病院予約アプリと同意管理・データブローカー・データベース・デマンド交通サービスの連携図</title>
+  <title id="svgTitle">36_15-②_病院予約アプリと同意管理・データブローカー・データベース・デマンド交通サービスの連携図</title>
   <desc id="svgDesc">病院予約アプリがデータブローカーへデータ登録し、同時に同意管理へ同意内容登録を行う。同意管理はデータブローカーに対して利用可否を判定し、データブローカーは許可されたデータのみをデマンド交通サービスへ提供する。またデータブローカーはデータベースへ連携する。</desc>
 
   <defs>
