@@ -16,7 +16,7 @@
 ## 各種フォーマット
 自治体で活用できるツールや、デジタル庁からの調査等で使うフォーマットなどを格納しています。
 
-[データマップ]()
+[データマップ](https://github.com/digital-go-jp/area-data-coordination/tree/main/template/%E3%83%87%E3%83%BC%E3%82%BF%E3%83%9E%E3%83%83%E3%83%97)
 
 
 ## ライセンス
