@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1080" viewBox="0 0 1440 1080" role="img" aria-labelledby="flow_title flow_desc">
-  <title id="flow_title">36_15-3_連携データの分類・取扱い判断フロー</title>
+  <title id="flow_title">35_15-3_連携データの分類・取扱い判断フロー</title>
   <desc id="flow_desc">
     個人識別の可否と加工水準に応じて、連携データを4種類に分類するフローチャート。
     下段の分岐条件を分岐線の上に重ねて配置している。
