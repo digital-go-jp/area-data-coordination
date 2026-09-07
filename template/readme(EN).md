@@ -1,4 +1,4 @@
-EN　| [日本語](readme.md)
+English　| [日本語](readme.md)
 
 # Various Formats
 This repository contains tools and formats that can be used by local governments, as well as formats required for surveys conducted by the Digital Agency.
