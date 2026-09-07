@@ -2,9 +2,6 @@ English | [日本語](readme.md)
 
 # Guidebook for Joint Utilization of the Area Data Coordination Platform
 
-[![Publisher](https://img.shields.io/badge/Publisher-Digital Agency-0017B6)](https://www.digital.go.jp/)
-![Publication Date](https://img.shields.io/badge/Publication Date-2026--09--04-lightgrey)
-
 This repository contains the latest edition of the **"Guidebook for Joint Utilization of the Area Data Coordination Platform"** published by the Digital Agency. It is designed to provide practical guidelines for local governments, regional businesses, and system vendors when considering and implementing **joint utilization** and **data utilization** of the area data coordination platform.
 
 The HTML files are provided as visually appealing, easy-to-read documents.
