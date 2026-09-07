@@ -1,4 +1,4 @@
-EN | [日本語](readme.md)
+English | [日本語](readme.md)
 
 # Standard Data Model
 This repository manages the **Standard Data Model** for the area data coordination platform.
