@@ -1,3 +1,4 @@
+English | [日本語](README.md)
 # Area Data Coordination Platform
 This repository is designed to provide access to various materials related to the "Area Data Coordination Platform" as outlined by the Digital Agency, along with standard data models and other relevant resources.
 
