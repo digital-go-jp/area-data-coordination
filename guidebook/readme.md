@@ -1,3 +1,5 @@
+日本語　|　[English](readme(EN).md)
+
 # エリアデータ連携基盤の共同利用ガイドブック
 
 [![発行元](https://img.shields.io/badge/発行元-デジタル庁-0017B6)](https://www.digital.go.jp/)
